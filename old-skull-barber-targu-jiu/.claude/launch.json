@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "oldskull",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4611", "--directory", "/Users/mateimihai/Documents/Codex/2026-07-08/hey-gpt-i-have-an-exciting/sites/old-skull-barber-targu-jiu"],
+      "port": 4611
+    }
+  ]
+}
