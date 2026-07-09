@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2b877"/>
+      <stop offset="0.45" stop-color="#b07f43"/>
+      <stop offset="1" stop-color="#7c5327"/>
+    </linearGradient>
+    <radialGradient id="cream" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#fffaf3"/>
+      <stop offset="1" stop-color="#f6e7d6"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="97" fill="url(#gold)"/>
+  <circle cx="100" cy="100" r="90" fill="url(#cream)"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="url(#gold)" stroke-width="1.6" opacity="0.7"/>
+  <!-- script "Nail" -->
+  <text x="100" y="86" text-anchor="middle" font-family="'Great Vibes','Segoe Script',cursive" font-size="52" fill="url(#gold)">Nail</text>
+  <!-- script "Bar" -->
+  <text x="100" y="140" text-anchor="middle" font-family="'Great Vibes','Segoe Script',cursive" font-size="52" fill="url(#gold)">Bar</text>
+  <!-- tools underline: nail file + brush -->
+  <g stroke="url(#gold)" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M52 150 L118 150"/>
+  </g>
+  <g fill="url(#gold)">
+    <rect x="120" y="146" width="20" height="4" rx="2" transform="rotate(18 130 148)"/>
+    <circle cx="146" cy="141" r="4"/>
+  </g>
+</svg>
