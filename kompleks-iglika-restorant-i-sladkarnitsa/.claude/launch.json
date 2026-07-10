@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "iglika",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8092", "--directory", "/Users/mateimihai/Documents/Codex/2026-07-08/hey-gpt-i-have-an-exciting/sites/kompleks-iglika-restorant-i-sladkarnitsa"],
+      "port": 8092
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#6d3b2e"/>
+  <g transform="translate(32 32)">
+    <!-- primrose: 5 heart petals around a golden center -->
+    <g fill="#f2c14e">
+      <circle cx="0" cy="0" r="6.5" fill="#e8a838"/>
+    </g>
+    <g fill="#f4d6c4">
+      <path d="M0 -6 C -5 -20 -20 -16 -14 -6 C -18 -3 -12 3 -6 0 Z" transform="rotate(0)"/>
+    </g>
+    <g fill="#f4d6c4">
+      <path d="M0 -8 C -4 -18 -16 -15 -12 -7 C -15 -5 -11 0 -6 -2 Z"/>
+      <path d="M0 -8 C -4 -18 -16 -15 -12 -7 C -15 -5 -11 0 -6 -2 Z" transform="rotate(72)"/>
+      <path d="M0 -8 C -4 -18 -16 -15 -12 -7 C -15 -5 -11 0 -6 -2 Z" transform="rotate(144)"/>
+      <path d="M0 -8 C -4 -18 -16 -15 -12 -7 C -15 -5 -11 0 -6 -2 Z" transform="rotate(216)"/>
+      <path d="M0 -8 C -4 -18 -16 -15 -12 -7 C -15 -5 -11 0 -6 -2 Z" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="#e8a838"/>
+    <circle cx="0" cy="0" r="2.4" fill="#c77b1e"/>
+  </g>
+</svg>

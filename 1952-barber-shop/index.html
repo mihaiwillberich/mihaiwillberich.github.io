@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>1952 Barbershop — Βόλος | Κλασικό μπαρμπέρικο στο κέντρο</title>
+<meta name="description" content="1952 Barbershop — κλασικό μπαρμπέρικο στο κέντρο του Βόλου, Αγίου Νικολάου 17. Κούρεμα, fade, περιποίηση γενειάδας & face care. Κλείσε ραντεβού: 24213 13074." />
+<meta name="keywords" content="μπαρμπέρικο Βόλος, barber shop Βόλος, κούρεμα Βόλος, fade Βόλος, περιποίηση γενειάδας Βόλος, 1952 Barbershop, Αγίου Νικολάου" />
+<meta name="theme-color" content="#12100d" />
+
+<meta property="og:type" content="business.business" />
+<meta property="og:title" content="1952 Barbershop — Βόλος" />
+<meta property="og:description" content="Κλασικό μπαρμπέρικο στο κέντρο του Βόλου. Κούρεμα, fade & περιποίηση γενειάδας. Κλείσε ραντεβού: 24213 13074." />
+<meta property="og:locale" content="el_GR" />
+<meta property="og:image" content="assets/img/hero.jpg" />
+<meta property="og:url" content="https://www.facebook.com/p/1952-Barber-Shop-100055115455636/" />
+
+<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+<link rel="apple-touch-icon" href="assets/img/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"HairSalon",
+  "name":"1952 Barbershop",
+  "image":"assets/img/hero.jpg",
+  "priceRange":"€€",
+  "telephone":"+302421313074",
+  "email":"1952.barbershop@gmail.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Αγίου Νικολάου 17",
+    "addressLocality":"Βόλος",
+    "postalCode":"38221",
+    "addressCountry":"GR"
+  },
+  "geo":{"@type":"GeoCoordinates","latitude":39.36365,"longitude":22.95211},
+  "url":"https://www.facebook.com/p/1952-Barber-Shop-100055115455636/",
+  "sameAs":[
+    "https://www.facebook.com/p/1952-Barber-Shop-100055115455636/",
+    "https://www.instagram.com/1952.volos/",
+    "https://1952barbershop.setmore.com/"
+  ],
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Thursday","Friday"],"opens":"09:00","closes":"21:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"15:00"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="brand" aria-label="1952 Barbershop — αρχική">
+      <span class="brand__pole" aria-hidden="true"></span>
+      <span class="brand__txt">
+        <span class="brand__name">1952 <em>·</em> Barbershop</span>
+        <span class="brand__sub">Βόλος · est. 1952</span>
+      </span>
+    </a>
+    <nav class="nav__links" aria-label="Κύρια πλοήγηση">
+      <a href="#about">Το μαγαζί</a>
+      <a href="#services">Τιμοκατάλογος</a>
+      <a href="#gallery">Δουλειές</a>
+      <a href="#visit">Ωράριο &amp; Χάρτης</a>
+    </nav>
+    <a href="tel:+302421313074" class="btn btn--brass btn--nav">
+      <span class="btn__ic" aria-hidden="true">☎</span> 24213 13074
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Άνοιγμα μενού" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#about">Το μαγαζί</a>
+    <a href="#services">Τιμοκατάλογος</a>
+    <a href="#gallery">Δουλειές</a>
+    <a href="#visit">Ωράριο &amp; Χάρτης</a>
+    <a href="tel:+302421313074" class="btn btn--brass btn--block">☎ Κλήση · 24213 13074</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow hero__eyebrow">Κλασικό μπαρμπέρικο · Βόλος</p>
+      <h1 class="hero__title">Το κούρεμα<br>είναι <span class="gold">τελετουργία.</span></h1>
+      <p class="hero__lead">
+        Στο κέντρο του Βόλου, στην Αγίου Νικολάου 17. Καθαρά fade,
+        γένια στο χιλιοστό και μια καρέκλα που σε βάζει στη θέση σου.
+      </p>
+      <p class="hero__est">Barber Shop &amp; Lifestyle Co.</p>
+      <div class="hero__cta">
+        <a href="tel:+302421313074" class="btn btn--brass btn--lg"><span class="btn__ic" aria-hidden="true">☎</span> Κλείσε ραντεβού</a>
+        <a href="https://1952barbershop.setmore.com/" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">Online κράτηση</a>
+      </div>
+      <ul class="hero__badges">
+        <li><strong>1952</strong><span>Η χρονιά μας</span></li>
+        <li><strong>1.291</strong><span>Followers στο FB</span></li>
+        <li><strong>€14</strong><span>Κούρεμα από</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__photo">
+        <img src="assets/img/hero.jpg" alt="Πελάτης του 1952 Barbershop σε ασπρόμαυρο πορτρέτο" fetchpriority="high" width="1200" height="1200" />
+      </div>
+      <span class="hero__polebar" aria-hidden="true"></span>
+      <div class="hero__plaque">
+        <img src="assets/img/logo-emblem.jpg" alt="Λογότυπο 1952 Barbershop — χέρι με ψαλίδι" width="900" height="900" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Κούρεμα</span><span class="dot">•</span><span>Skin Fade</span><span class="dot">•</span>
+    <span>Taper Fade</span><span class="dot">•</span><span>Περιποίηση γενειάδας</span><span class="dot">•</span>
+    <span>Face Care</span><span class="dot">•</span><span>Styling</span><span class="dot">•</span>
+    <span>Κούρεμα</span><span class="dot">•</span><span>Skin Fade</span><span class="dot">•</span>
+    <span>Taper Fade</span><span class="dot">•</span><span>Περιποίηση γενειάδας</span><span class="dot">•</span>
+    <span>Face Care</span><span class="dot">•</span><span>Styling</span><span class="dot">•</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="wrap">
+    <div class="about__grid">
+      <div class="about__body">
+        <p class="eyebrow">Το μαγαζί</p>
+        <h2 class="section__title">Παράδοση με <span class="gold">σύγχρονο χέρι.</span></h2>
+        <p>
+          Το <strong>1952 Barbershop</strong> είναι ένα κλασικό μπαρμπέρικο στην καρδιά του Βόλου.
+          Δερμάτινη καρέκλα, τούβλινος τοίχος, εργαλεία που ξέρουν τη δουλειά τους — και η ίδια
+          απλή υπόσχεση κάθε φορά: να φύγεις καλύτερος απ' ό,τι μπήκες.
+        </p>
+        <p>
+          Από το καθημερινό <strong>κούρεμα</strong> και το καθαρό <strong>fade</strong>, μέχρι την
+          περιποίηση γενειάδας και το <strong>face care</strong> — δουλεύουμε με ραντεβού, με χρόνο
+          και με προσοχή στη λεπτομέρεια. Χωρίς βιασύνη, χωρίς εκπτώσεις στην ποιότητα.
+        </p>
+        <div class="about__marks">
+          <span class="mark"><b>✂</b> Fade &amp; classic cuts</span>
+          <span class="mark"><b>◆</b> Γένια στο χιλιοστό</span>
+          <span class="mark"><b>♦</b> Με ραντεβού</span>
+        </div>
+      </div>
+      <figure class="about__heritage">
+        <img src="assets/img/heritage.jpg" alt="Vintage γκραβούρα παλιού μπαρμπέρικου" width="1300" height="720" />
+        <figcaption>Η τέχνη του κουρέα — <b>από το 1952</b></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="wrap">
+    <div class="section__head center">
+      <p class="eyebrow">Τιμοκατάλογος</p>
+      <h2 class="section__title">Υπηρεσίες &amp; <span class="gold">τιμές</span></h2>
+      <p class="section__sub">Καθαρές τιμές, χωρίς εκπλήξεις. Κλείσε το ραντεβού σου online ή τηλεφωνικά.</p>
+    </div>
+    <div class="menu">
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Κούρεμα</div>
+          <div class="menu__desc">Κλασικό ανδρικό κούρεμα · 30′</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€14</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Κούρεμα &amp; Γένια</div>
+          <div class="menu__desc">Κούρεμα + περιποίηση γενειάδας · 30′</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€16</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Περιποίηση γενειάδας</div>
+          <div class="menu__desc">Σχηματισμός &amp; φινίρισμα γενιών · 15′</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€7</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Fade στο πλάι</div>
+          <div class="menu__desc">Ανανέωση στα πλαϊνά · 20′</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€12</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Face Care</div>
+          <div class="menu__desc">Ολοκληρωμένη περιποίηση προσώπου · 1 ώρα</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€20</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Μπαμπάς &amp; Γιος</div>
+          <div class="menu__desc">Κούρεμα για δύο, πατέρα &amp; παιδί · 1 ώρα</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€25</div>
+      </div>
+      <div class="menu__item">
+        <div class="menu__lead">
+          <div class="menu__name">Εσύ &amp; 2 φίλοι σου</div>
+          <div class="menu__desc">Παρέα των τριών · 1,5 ώρα</div>
+        </div>
+        <div class="menu__dots" aria-hidden="true"></div>
+        <div class="menu__price">€36</div>
+      </div>
+      <div class="menu__note">
+        Τιμές από τον επίσημο online τιμοκατάλογο. <b>Με ραντεβού</b> — κλείσε στο 24213 13074 ή online.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="section__head center">
+      <p class="eyebrow">Οι δουλειές μας</p>
+      <h2 class="section__title">Καρέκλα, ψαλίδι, <span class="gold">αποτέλεσμα</span></h2>
+      <p class="section__sub">Πραγματικά κουρέματα από την καρέκλα του 1952 Barbershop.</p>
+    </div>
+    <div class="gallery__grid">
+      <figure><img src="assets/img/work-01.jpg" alt="Κούρεμα — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-02.jpg" alt="Fade — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-03.jpg" alt="Ανδρικό κούρεμα — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-04.jpg" alt="Κούρεμα με γένια — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-05.jpg" alt="Styling — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-06.jpg" alt="Skin fade — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-07.jpg" alt="Taper fade — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-08.jpg" alt="Κούρεμα ανδρικό — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-09.jpg" alt="Fade στο πλάι — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-10.jpg" alt="Περιποίηση γενειάδας — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-11.jpg" alt="Κούρεμα — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-12.jpg" alt="Classic cut — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-13.jpg" alt="Fade — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-14.jpg" alt="Styling ανδρικό — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-15.jpg" alt="Κούρεμα με fade — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-16.jpg" alt="Fade στο πλάι — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-17.jpg" alt="Ανδρικό κούρεμα — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-18.jpg" alt="Skin fade — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-19.jpg" alt="Κούρεμα — 1952 Barbershop" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-20.jpg" alt="Fade — 1952 Barbershop Βόλος" loading="lazy" /></figure>
+      <figure><img src="assets/img/work-21.jpg" alt="Styling — 1952 Barbershop" loading="lazy" /></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="visit">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Ωράριο &amp; Τοποθεσία</p>
+      <h2 class="section__title">Πέρνα από <span class="gold">το μαγαζί</span></h2>
+    </div>
+    <div class="visit__grid">
+      <div>
+        <ul class="hours">
+          <li class="closed"><span class="d">Δευτέρα</span><span class="h">Κλειστά</span></li>
+          <li><span class="d">Τρίτη</span><span class="h">09:00 – 21:00</span></li>
+          <li><span class="d">Τετάρτη</span><span class="h">09:00 – 18:00</span></li>
+          <li class="today"><span class="d">Πέμπτη</span><span class="h">09:00 – 21:00</span></li>
+          <li><span class="d">Παρασκευή</span><span class="h">09:00 – 21:00</span></li>
+          <li><span class="d">Σάββατο</span><span class="h">09:00 – 15:00</span></li>
+          <li class="closed"><span class="d">Κυριακή</span><span class="h">Κλειστά</span></li>
+        </ul>
+        <div class="contact-card">
+          <div class="contact-row">
+            <span class="ic" aria-hidden="true">📍</span>
+            <span><b>Διεύθυνση</b><a href="https://www.openstreetmap.org/?mlat=39.36365&mlon=22.95211#map=18/39.36365/22.95211" target="_blank" rel="noopener">Αγίου Νικολάου 17, Βόλος 382 21</a></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic" aria-hidden="true">☎</span>
+            <span><b>Τηλέφωνο</b><a href="tel:+302421313074">24213 13074</a></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic" aria-hidden="true">✉</span>
+            <span><b>Email</b><a href="mailto:1952.barbershop@gmail.com">1952.barbershop@gmail.com</a></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic" aria-hidden="true">◎</span>
+            <span><b>Instagram</b><a href="https://www.instagram.com/1952.volos/" target="_blank" rel="noopener">@1952.volos</a></span>
+          </div>
+        </div>
+        <div class="hero__cta" style="margin-top:26px">
+          <a href="tel:+302421313074" class="btn btn--brass btn--lg"><span class="btn__ic" aria-hidden="true">☎</span> Κλήση τώρα</a>
+          <a href="https://1952barbershop.setmore.com/" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">Online κράτηση</a>
+        </div>
+      </div>
+      <div class="map-frame">
+        <div class="map-frame__tag"><b>1952</b> · Αγίου Νικολάου 17</div>
+        <a id="mapLink" class="map-frame__static"
+           href="https://www.openstreetmap.org/?mlat=39.36365&amp;mlon=22.95211#map=18/39.36365/22.95211"
+           target="_blank" rel="noopener"
+           aria-label="Άνοιγμα χάρτη στο OpenStreetMap">
+          <span class="map-frame__hint">Άνοιξε τον χάρτη στο OpenStreetMap →</span>
+        </a>
+        <div id="leafletMap" class="map-frame__canvas" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <div class="cta__inner">
+    <p class="eyebrow">Έτοιμος;</p>
+    <h2 class="cta__title">Η καρέκλα <span class="gold">σε περιμένει.</span></h2>
+    <p class="cta__sub">Κλείσε το ραντεβού σου στο 1952 Barbershop — στο κέντρο του Βόλου, Αγίου Νικολάου 17.</p>
+    <div class="cta__row">
+      <a href="tel:+302421313074" class="btn btn--brass btn--lg"><span class="btn__ic" aria-hidden="true">☎</span> 24213 13074</a>
+      <a href="https://1952barbershop.setmore.com/" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">Online κράτηση</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="brand" aria-label="1952 Barbershop">
+          <span class="brand__pole" aria-hidden="true"></span>
+          <span class="brand__txt">
+            <span class="brand__name">1952 <em>·</em> Barbershop</span>
+            <span class="brand__sub">Βόλος · est. 1952</span>
+          </span>
+        </a>
+        <p>Κλασικό μπαρμπέρικο στο κέντρο του Βόλου. Κούρεμα, fade, γένια &amp; face care — με ραντεβού.</p>
+      </div>
+      <div>
+        <h4>Πλοήγηση</h4>
+        <ul>
+          <li><a href="#about">Το μαγαζί</a></li>
+          <li><a href="#services">Τιμοκατάλογος</a></li>
+          <li><a href="#gallery">Δουλειές</a></li>
+          <li><a href="#visit">Ωράριο &amp; Χάρτης</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Επικοινωνία</h4>
+        <ul>
+          <li><a href="tel:+302421313074">24213 13074</a></li>
+          <li><a href="mailto:1952.barbershop@gmail.com">1952.barbershop@gmail.com</a></li>
+          <li>Αγίου Νικολάου 17, Βόλος</li>
+          <li><a href="https://www.instagram.com/1952.volos/" target="_blank" rel="noopener">Instagram · @1952.volos</a></li>
+          <li><a href="https://www.facebook.com/p/1952-Barber-Shop-100055115455636/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© 1952 Barbershop · Βόλος</span>
+      <span>Αγίου Νικολάου 17, 382 21 · <a href="tel:+302421313074">24213 13074</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  (function(){
+    // Leaflet raster-tile map (no WebGL needed)
+    if(window.L){
+      try{
+        var el=document.getElementById('leafletMap');
+        var lat=39.36365, lon=22.95211;
+        var map=L.map(el,{scrollWheelZoom:false,zoomControl:true,attributionControl:true}).setView([lat,lon],17);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          maxZoom:19,
+          attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        L.marker([lat,lon]).addTo(map).bindPopup('1952 Barbershop<br>Αγίου Νικολάου 17, Βόλος');
+        var link=document.getElementById('mapLink');
+        if(link) link.style.display='none';
+        el.style.display='block';
+        el.removeAttribute('aria-hidden');
+      }catch(e){/* keep static link fallback */}
+    }
+  })();
+  (function(){
+    var t=document.getElementById('navToggle'),
+        n=document.querySelector('.nav'),
+        m=document.getElementById('navMobile');
+    if(t){
+      t.addEventListener('click',function(){
+        var open=n.classList.toggle('nav--open');
+        t.setAttribute('aria-expanded',open?'true':'false');
+      });
+      m.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click',function(){
+          n.classList.remove('nav--open');
+          t.setAttribute('aria-expanded','false');
+        });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
