@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Norema Restaurant Oradea — Bucătărie românească și ardelenească, pizza pe vatră</title>
+<meta name="description" content="Norema Restaurant din Oradea, str. Vasile Alecsandri 10 — preparate tradiționale românești și ardelenești, pizza pe vatră și peste 15 sortimente, mic dejun, prânzul zilei și evenimente. Rezervă o masă: +40 772 175 195.">
+<meta name="keywords" content="restaurant Oradea, Norema, pizza pe vatra Oradea, mancare traditionala Oradea, restaurant Vasile Alecsandri, ciorba, papanasi, evenimente Oradea">
+<meta name="author" content="Norema Restaurant">
+<meta name="theme-color" content="#241812">
+<link rel="canonical" href="https://noremarestaurant.ro/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Norema Restaurant">
+<meta property="og:title" content="Norema Restaurant Oradea — Bucătărie românească & pizza pe vatră">
+<meta property="og:description" content="Preparate tradiționale românești și ardelenești, pizza pe vatră și un loc primitor chiar în inima orașului Oradea. Rezervă o masă la +40 772 175 195.">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:image" content="assets/img/wings-real.jpg">
+<meta property="og:url" content="https://noremarestaurant.ro/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Norema Restaurant Oradea">
+<meta name="twitter:description" content="Bucătărie românească și ardelenească, pizza pe vatră — chiar în inima orașului Oradea.">
+<meta name="twitter:image" content="assets/img/wings-real.jpg">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+
+<!-- Structured data: Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Norema Restaurant",
+  "image": "https://noremarestaurant.ro/assets/img/wings-real.jpg",
+  "servesCuisine": ["Romanian", "Hungarian", "Pizza"],
+  "priceRange": "$$",
+  "telephone": "+40772175195",
+  "email": "norema.restaurant@gmail.com",
+  "url": "https://noremarestaurant.ro/",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Vasile Alecsandri 10",
+    "addressLocality": "Oradea",
+    "addressRegion": "Bihor",
+    "postalCode": "410072",
+    "addressCountry": "RO"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 47.0540037, "longitude": 21.9309563 },
+  "sameAs": [
+    "https://www.facebook.com/noremarestaurant",
+    "https://www.instagram.com/norema_restaurant/"
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Sunday"], "opens": "10:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "10:00", "closes": "23:00" }
+  ],
+  "acceptsReservations": "True"
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Norema Restaurant — acasă">
+      <span class="mark">N</span>
+      <span>Norema<small>Restaurant · Oradea</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Navigație principală">
+      <a href="#despre">Despre</a>
+      <a href="#meniu">Meniu</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#recenzii">Recenzii</a>
+      <a href="#vizita">Program & Locație</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+40772175195" class="nav-phone" aria-label="Sună la Norema">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        072 175 195
+      </a>
+      <a href="tel:+40772175195" class="btn btn-primary">Sună acum</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Deschide meniul" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Meniu mobil">
+  <a href="#despre">Despre</a>
+  <a href="#meniu">Meniu</a>
+  <a href="#galerie">Galerie</a>
+  <a href="#recenzii">Recenzii</a>
+  <a href="#vizita">Program & Locație</a>
+  <a href="tel:+40772175195" class="btn btn-primary">Sună acum</a>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Introducere">
+  <div class="hero-bg">
+    <img src="assets/img/wings-real.jpg" alt="Aripioare de pui crocante cu cartofi wedges și sos de usturoi, servite pe platou de ardezie la Norema Restaurant" fetchpriority="high" width="2048" height="1308">
+  </div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span> Deschis azi · 10:00 – 22:00</span>
+      <h1>Gustul de <em>acasă</em>, chiar în inima orașului Oradea.</h1>
+      <p class="hero-lead">Preparate tradiționale românești și ardelenești, pizza coaptă pe vatră și un loc cald, primitor pe str. Vasile Alecsandri. Vibe fresh, gusturi autentice.</p>
+      <div class="hero-actions">
+        <a href="tel:+40772175195" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Rezervă o masă
+        </a>
+        <a href="#meniu" class="btn btn-ghost">Vezi meniul</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item">
+          <div class="k">100%</div>
+          <div class="l">recomandat de clienți</div>
+        </div>
+        <div class="item">
+          <div class="k">15+</div>
+          <div class="l">sortimente pizza pe vatră</div>
+        </div>
+        <div class="item">
+          <div class="k stars">★★★★★</div>
+          <div class="l">apreciat pe Glovo · 95%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Pizza pe vatră</span><span>Ciorbe de casă</span><span>Papanași cu smântână</span><span>Mic dejun englezesc</span><span>Prânzul zilei</span><span>Evenimente & aniversări</span>
+    <span>Pizza pe vatră</span><span>Ciorbe de casă</span><span>Papanași cu smântână</span><span>Mic dejun englezesc</span><span>Prânzul zilei</span><span>Evenimente & aniversări</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="despre">
+  <div class="wrap about-grid">
+    <div class="about-copy reveal">
+      <span class="eyebrow">Povestea noastră</span>
+      <h2>Un loc primitor, cu gusturi care îți amintesc de acasă.</h2>
+      <p>Norema s-a deschis la finalul lui 2022 pe str. Vasile Alecsandri, chiar în centrul orașului Oradea, cu o idee simplă: mâncare gătită cu grijă, din ingrediente proaspete, servită de oameni prietenoși.</p>
+      <p>La noi găsești <strong>bucătărie tradițională românească și ardelenească</strong> — ciorbe fierbinți, papricaș cu găluște, sarmale de sezon și deserturi de casă — alături de <strong>pizza coaptă pe vatră</strong>, paste și burgeri pentru cei care vor ceva mai lejer.</p>
+      <p>Ne-am redeschis cu un concept fresh și un meniu extins, dar am păstrat exact ce contează: <strong>porții generoase, gust autentic și o atmosferă caldă</strong> în care te simți bine venit de fiecare dată.</p>
+      <div class="about-sign">
+        Cu drag, echipa Norema
+        <small>Vasile Alecsandri 10 · Oradea</small>
+      </div>
+    </div>
+    <div class="about-media reveal">
+      <div class="frame">
+        <img src="assets/img/ph-interior.jpg" alt="Interiorul cald și primitor al restaurantului Norema din Oradea" loading="lazy" width="1600" height="1067">
+      </div>
+      <div class="tag">
+        <div class="n">Din 2022</div>
+        <div class="d">gătim pentru orădeni cu drag</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section" style="background:var(--ink)">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">De ce Norema</span>
+      <h2>Mai mult decât o masă bună</h2>
+      <p>Trei motive pentru care orădenii revin la noi săptămână de săptămână.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s4 2 4 7a4 4 0 0 1-8 0c0-5 4-7 4-7z"/><path d="M5 15c0 3.87 3.13 7 7 7s7-3.13 7-7"/></svg></div>
+        <h3>Pizza pe vatră</h3>
+        <p>Peste 15 sortimente coapte pe vatră — de la Ungurească și Românească, la Diavola și Quattro Formaggi. Blat pufos, ingrediente adevărate.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18"/><path d="M12 3a8 8 0 0 1 8 8H4a8 8 0 0 1 8-8z"/><path d="M5 16h14M6 20h12"/></svg></div>
+        <h3>Bucătărie de casă</h3>
+        <p>Ciorbe fierbinți, papricaș cu găluște, șnițele, papanași cu smântână — rețete tradiționale, gătite proaspăt în fiecare zi.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Evenimente speciale</h3>
+        <p>Locație primitoare pentru până la 40 de persoane — botezuri, aniversări, mese în familie. Ne ocupăm noi de tot.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="section menu" id="meniu">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Meniul nostru</span>
+      <h2>De la ciorbă la desert</h2>
+      <p>O selecție din preparatele noastre. Prețurile sunt orientative (lei) și pot varia — meniul complet îl găsești în restaurant sau pe Glovo.</p>
+    </div>
+
+    <!-- PIZZA -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Pizza pe vatră</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-ungureasca.jpg" alt="Pizza Ungurească de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Ungurească <span class="badge pop">Favorit</span></h4><span class="dish-price">51 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, șuncă, bacon, cârnat picant, ceapă roșie, ardei iute</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-romaneasca.jpg" alt="Pizza Românească de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Românească</h4><span class="dish-price">51 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, bacon, cârnat, ceapă roșie, ciuperci, măsline</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-quattro-stagioni.jpg" alt="Pizza Quattro Stagioni de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Quattro Stagioni</h4><span class="dish-price">45 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, șuncă, ciuperci, măsline</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-chorizo.jpg" alt="Pizza Chorizo și Philadelphia de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Chorizo & Philadelphia</h4><span class="dish-price">49 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, chorizo, cremă de brânză Philadelphia</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-quattro-formaggi.jpg" alt="Pizza Quattro Formaggi de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Quattro Formaggi</h4><span class="dish-price">43 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, gorgonzola, parmezan, cașcaval afumat</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-diavola.jpg" alt="Pizza Diavola picantă de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Diavola <span class="badge spicy">Picant</span></h4><span class="dish-price">42 <small>lei</small></span></div><p class="dish-desc">Sos roșii, salam picant, ardei iute, mozzarella</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-prosciutto-funghi.jpg" alt="Pizza Prosciutto e Funghi de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Prosciutto e Funghi</h4><span class="dish-price">40 <small>lei</small></span></div><p class="dish-desc">Sos roșii, șuncă, ciuperci, mozzarella</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-carbonara.jpg" alt="Pizza Carbonara de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Carbonara</h4><span class="dish-price">40 <small>lei</small></span></div><p class="dish-desc">Sos alb, mozzarella, bacon, smântână, gălbenuș de ou</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-prosciutto.jpg" alt="Pizza Prosciutto de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Prosciutto</h4><span class="dish-price">38 <small>lei</small></span></div><p class="dish-desc">Sos roșii, șuncă, mozzarella</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pizza-vegetariana.jpg" alt="Pizza Vegetariană de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Vegetariană <span class="badge veg">Veggie</span></h4><span class="dish-price">37 <small>lei</small></span></div><p class="dish-desc">Sos roșii, mozzarella, ciuperci, porumb, măsline, ardei</p></div></article>
+      </div>
+    </div>
+
+    <!-- CIORBE -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Ciorbe & Supe</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-babgulyas.jpg" alt="Babgulyás — supă ardelenească de fasole de la Norema" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Babgulyás</h4><span class="dish-price">45 <small>lei</small></span></div><p class="dish-desc">Fasole, carne de porc, legume, condimente — specialitate ardelenească</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-ciorba-burta.jpg" alt="Ciorbă de burtă de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciorbă de burtă <span class="badge pop">Favorit</span></h4><span class="dish-price">38 <small>lei</small></span></div><p class="dish-desc">Burtă de vită, smântână, ou, usturoi, morcov</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-ciorba-perisoare.jpg" alt="Ciorbă de perișoare de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciorbă de perișoare</h4><span class="dish-price">36 <small>lei</small></span></div><p class="dish-desc">Perișoare, smântână, legume</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-ciorba-grec.jpg" alt="Ciorbă à la grec de pui de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciorbă à la grec de pui</h4><span class="dish-price">36 <small>lei</small></span></div><p class="dish-desc">Piept de pui, legume, smântână</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-ciorba-taraneasca.jpg" alt="Ciorbă țărănească de văcuță de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciorbă țărănească de văcuță</h4><span class="dish-price">35 <small>lei</small></span></div><p class="dish-desc">Carne de vită, suc de roșii, legume</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-ciorba-radauteana.jpg" alt="Ciorbă rădăuțeană de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciorbă rădăuțeană</h4><span class="dish-price">35 <small>lei</small></span></div><p class="dish-desc">Pui, smântână, legume</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-supa-crema-ciuperci.jpg" alt="Supă cremă de ciuperci de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Supă cremă de ciuperci</h4><span class="dish-price">33 <small>lei</small></span></div><p class="dish-desc">Ciuperci, smântână</p></div></article>
+      </div>
+    </div>
+
+    <!-- RECOMANDAREA CASEI -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Recomandarea casei</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pulpa-rata.jpg" alt="Pulpă de rață la cuptor de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pulpă de rață la cuptor <span class="badge pop">Signature</span></h4><span class="dish-price">68 <small>lei</small></span></div><p class="dish-desc">Varză roșie călită, cartofi gratinați, portocale, miere</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-ciolan-porc.jpg" alt="Ciolan de porc gătit lent de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ciolan de porc gătit lent</h4><span class="dish-price">68 <small>lei</small></span></div><p class="dish-desc">Iahnie de fasole, ceapă, ardei, condimente</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-coaste-bbq.jpg" alt="Coaste BBQ de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Coaste BBQ</h4><span class="dish-price">68 <small>lei</small></span></div><p class="dish-desc">Coaste marinate, cartofi prăjiți, sos de usturoi</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-somon.jpg" alt="Somon la cuptor de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Somon la cuptor</h4><span class="dish-price">54 <small>lei</small></span></div><p class="dish-desc">200g file de somon copt</p></div></article>
+      </div>
+    </div>
+
+    <!-- PUI -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Pasăre</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-papricas-pui.jpg" alt="Papricaș de pui cu găluște de casă de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Papricaș de pui cu găluște de casă <span class="badge pop">Favorit</span></h4><span class="dish-price">57 <small>lei</small></span></div><p class="dish-desc">Piept de pui, sos de roșii, găluște de griș</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-pui-gorgonzola.jpg" alt="Piept de pui gorgonzola de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Piept de pui gorgonzola</h4><span class="dish-price">59 <small>lei</small></span></div><p class="dish-desc">Gorgonzola, smântână, cartofi gratinați cu emmentaler</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-crispy-cartofi.jpg" alt="Crispy de pui cu cartofi prăjiți de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Crispy cu cartofi prăjiți</h4><span class="dish-price">53 <small>lei</small></span></div><p class="dish-desc">Pui pané, cartofi prăjiți, sos de usturoi</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-pui-sos-ciuperci.jpg" alt="Piept de pui cu sos de ciuperci de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Piept de pui cu sos de ciuperci</h4><span class="dish-price">51 <small>lei</small></span></div><p class="dish-desc">Ciuperci, smântână</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-pulpe-pui-grill.jpg" alt="Pulpe de pui la grill cu cartofi piure de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pulpe de pui la grill</h4><span class="dish-price">49 <small>lei</small></span></div><p class="dish-desc">Pulpe dezosate, cartofi piure</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-pui-caprese.jpg" alt="Piept de pui caprese de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Piept de pui caprese</h4><span class="dish-price">41 <small>lei</small></span></div><p class="dish-desc">Mozzarella, roșii</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-snitel-pui.jpg" alt="Șnițel de pui crocant de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Șnițel de pui crocant</h4><span class="dish-price">41 <small>lei</small></span></div><p class="dish-desc">Piept de pui pané</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-aripioare-pui.jpg" alt="Aripioare de pui cu cartofi prăjiți de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Aripioare de pui & cartofi prăjiți</h4><span class="dish-price">41 <small>lei</small></span></div><p class="dish-desc">Sos de usturoi</p></div></article>
+      </div>
+    </div>
+
+    <!-- PORC -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Porc & Grătar</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-gordon-bleu.jpg" alt="Gordon bleu din cotlet de porc de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Gordon bleu din cotlet de porc</h4><span class="dish-price">54 <small>lei</small></span></div><p class="dish-desc">Șuncă, mozzarella, cartofi pai, ardei murat</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-ceafa-tiganeasca.jpg" alt="Ceafă țigănească de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Ceafă țigănească</h4><span class="dish-price">53 <small>lei</small></span></div><p class="dish-desc">Ceafă marinată, bacon, cartofi, ceapă, condimente</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-mititei.jpg" alt="Mititei cu cartofi prăjiți de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mititei cu cartofi prăjiți <span class="badge pop">Favorit</span></h4><span class="dish-price">43 <small>lei</small></span></div><p class="dish-desc">Mititei de porc și vită, cartofi prăjiți, muștar</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-snitel-norema.jpg" alt="Șnițel Norema din cotlet de porc" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Șnițel Norema</h4><span class="dish-price">43 <small>lei</small></span></div><p class="dish-desc">Cotlet de porc, mozzarella, usturoi</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-cotlet-ciuperci.jpg" alt="Cotlet de porc cu sos de ciuperci de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Cotlet de porc cu sos de ciuperci</h4><span class="dish-price">42 <small>lei</small></span></div><p class="dish-desc">Smântână, ciuperci</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-cascaval-pane.jpg" alt="Cașcaval pane de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Cașcaval pane <span class="badge veg">Veggie</span></h4><span class="dish-price">33 <small>lei</small></span></div><p class="dish-desc">Cașcaval prăjit în crustă</p></div></article>
+      </div>
+    </div>
+
+    <!-- PASTE & SALATE -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Paste & Salate</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-tagliatelle-creveti.jpg" alt="Tagliatelle cu creveți și zucchini de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Tagliatelle cu creveți & zucchini</h4><span class="dish-price">59 <small>lei</small></span></div><p class="dish-desc">Creveți, zucchini, usturoi, sos de roșii, smântână</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-penne-pui.jpg" alt="Penne cu pui și ciuperci de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Penne cu pui & ciuperci</h4><span class="dish-price">47 <small>lei</small></span></div><p class="dish-desc">Piept de pui, ciuperci, smântână, usturoi</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-spaghete-carbonara.jpg" alt="Spaghete Carbonara de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Spaghete Carbonara</h4><span class="dish-price">44 <small>lei</small></span></div><p class="dish-desc">Bacon prăjit, ou, parmezan</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-gnocchi-formaggi.jpg" alt="Gnocchi Quattro Formaggi de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Gnocchi Quattro Formaggi <span class="badge veg">Veggie</span></h4><span class="dish-price">43 <small>lei</small></span></div><p class="dish-desc">Gorgonzola, cașcaval, mozzarella, parmezan</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-salata-caesar.jpg" alt="Salată Caesar de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Salată Caesar</h4><span class="dish-price">45 <small>lei</small></span></div><p class="dish-desc">Salată iceberg, piept de pui, roșii, crutoane, mozzarella, tzatziki</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-salata-crispy-tzatziki.jpg" alt="Salată cu pui crispy și tzatziki de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Salată cu pui crispy & tzatziki</h4><span class="dish-price">43 <small>lei</small></span></div><p class="dish-desc">Pui crispy, iceberg, roșii, castraveți</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-salata-ton.jpg" alt="Salată cu ton de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Salată cu ton</h4><span class="dish-price">42 <small>lei</small></span></div><p class="dish-desc">Ton, ou fiert, iceberg, ceapă, porumb, lămâie</p></div></article>
+      </div>
+    </div>
+
+    <!-- MIC DEJUN & PRANZ -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Mic dejun & Prânz</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-meniul-zilei.jpg" alt="Meniul zilei de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Meniul zilei <span class="badge pop">Prânz</span></h4><span class="dish-price">36 <small>lei</small></span></div><p class="dish-desc">Supă de legume, ceafă la grătar, cartofi prăjiți & pui cu orez</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-mic-dejun-englezesc.jpg" alt="Mic dejun în stil englezesc de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mic dejun în stil englezesc</h4><span class="dish-price">38 <small>lei</small></span></div><p class="dish-desc">Ouă, bacon, cârnați, roșii, ciuperci, fasole, toast</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-omleta-avocado.jpg" alt="Omletă pufoasă cu cremă de brânză și avocado de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Omletă pufoasă cu cremă de brânză & avocado</h4><span class="dish-price">38 <small>lei</small></span></div><p class="dish-desc">Ouă, cremă de brânză, mozzarella, avocado, rucola, roșii cherry</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-mic-dejun-norema.jpg" alt="Mic dejun Norema" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mic dejun Norema</h4><span class="dish-price">36 <small>lei</small></span></div><p class="dish-desc">Ochiuri, bacon, lipie, salată asortată</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-omleta-taraneasca.jpg" alt="Omletă țărănească de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Omletă țărănească</h4><span class="dish-price">33 <small>lei</small></span></div><p class="dish-desc">Ouă, bacon, ceapă</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/glovo-gustul-copilariei.jpg" alt="Gustul copilăriei — pâine prăjită în ou de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Gustul copilăriei</h4><span class="dish-price">31 <small>lei</small></span></div><p class="dish-desc">Pâine prăjită în ou și ceai</p></div></article>
+      </div>
+    </div>
+
+    <!-- DESERT -->
+    <div class="menu-cat">
+      <div class="menu-cat-head"><h3>Deserturi</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-papanasi.jpg" alt="Papanași cu smântână și gem de fructe de pădure de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Papanași cu smântână & gem de fructe de pădure <span class="badge pop">Favorit</span></h4><span class="dish-price">38 <small>lei</small></span></div><p class="dish-desc">Papanași pufoși, smântână, gem de fructe de pădure</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/real-clatite.jpg" alt="Clătite cu ciocolată și banane de la Norema Restaurant" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Clătite cu ciocolată & banane</h4><span class="dish-price">34 <small>lei</small></span></div><p class="dish-desc">2 clătite, ciocolată, banane, frișcă</p></div></article>
+      </div>
+    </div>
+
+    <p class="menu-note">Fotografiile sunt ale preparatelor noastre (sursă: Glovo). Meniul complet, alergenii și promoțiile la zi le găsești în restaurant sau pe Glovo. Prețurile pot suferi modificări.</p>
+    <div class="menu-cta">
+      <a href="https://glovoapp.com/ro/ro/oradea/stores/norema-ord" target="_blank" rel="noopener" class="btn btn-primary">Comandă pe Glovo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="galerie">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Galerie</span>
+      <h2>O privire în bucătăria noastră</h2>
+      <p>Câteva dintre preparatele și atmosfera care te așteaptă la Norema.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gcell g-tall g-wide"><img src="assets/img/wings-real.jpg" alt="Aripioare de pui crocante cu cartofi wedges și sos de usturoi" loading="lazy"><span class="cap">Aripioare crocante & cartofi wedges</span></div>
+      <div class="gcell"><img src="assets/img/ph-pizza.jpg" alt="Pizza coaptă pe vatră cu blat pufos" loading="lazy"><span class="cap">Pizza pe vatră</span></div>
+      <div class="gcell"><img src="assets/img/ph-soup.jpg" alt="Ciorbă tradițională fierbinte servită în bol" loading="lazy"><span class="cap">Ciorbe de casă</span></div>
+      <div class="gcell"><img src="assets/img/ph-ribs.jpg" alt="Coaste BBQ marinate cu cartofi" loading="lazy"><span class="cap">Coaste BBQ</span></div>
+      <div class="gcell"><img src="assets/img/ph-dessert.jpg" alt="Desert de casă cu smântână și fructe" loading="lazy"><span class="cap">Deserturi de casă</span></div>
+      <div class="gcell g-wide"><img src="assets/img/ph-interior.jpg" alt="Interiorul cald al restaurantului Norema" loading="lazy"><span class="cap">Atmosfera Norema</span></div>
+      <div class="gcell"><img src="assets/img/ph-burger.jpg" alt="Burger de vită Angus cu cartofi" loading="lazy"><span class="cap">Burgeri Norema</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section reviews" id="recenzii">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Ce spun clienții</span>
+      <h2>100% recomandat</h2>
+      <p>Orădenii apreciază gustul autentic, porțiile generoase și oamenii primitori.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Mâncare gustoasă, preparate proaspete și porții generoase. Gustul autentic al preparatelor tradiționale se simte în fiecare fel.”</p>
+        <div class="who"><span class="av">A</span><div><div class="nm">Andreea M.</div><div class="src">Recenzie clienți · Facebook</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Personal prietenos, atent și rapid. O locație plăcută și primitoare — exact atmosfera de care aveai nevoie după o zi lungă.”</p>
+        <div class="who"><span class="av">R</span><div><div class="nm">Robert P.</div><div class="src">Recenzie clienți · Facebook</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Deserturi proaspete și variație mare în meniu. Papanașii sunt exact ca la mama acasă. Revenim cu drag!”</p>
+        <div class="who"><span class="av">C</span><div><div class="nm">Cristina D.</div><div class="src">Comandă Glovo · 95% apreciat</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="vizita">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Program & Locație</span>
+      <h2>Ne găsești chiar în centrul orașului Oradea</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Adresă</h4><p><a href="https://www.google.com/maps/search/?api=1&query=Norema+Restaurant+Strada+Vasile+Alecsandri+10+Oradea" target="_blank" rel="noopener">Strada Vasile Alecsandri 10, Oradea, Bihor</a></p></div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div>
+            <h4>Program</h4>
+            <div class="hours-row" data-day="1-4"><span>Luni – Joi</span><span>10:00 – 22:00</span></div>
+            <div class="hours-row" data-day="5-6"><span>Vineri – Sâmbătă</span><span>10:00 – 23:00</span></div>
+            <div class="hours-row" data-day="0"><span>Duminică</span><span>10:00 – 22:00</span></div>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><h4>Rezervări & comenzi</h4><p><a href="tel:+40772175195">+40 772 175 195</a><br><a href="mailto:norema.restaurant@gmail.com">norema.restaurant@gmail.com</a></p></div>
+        </div>
+        <div class="visit-actions">
+          <a href="tel:+40772175195" class="btn btn-primary">Sună acum</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=47.0540037,21.9309563" target="_blank" rel="noopener" class="btn btn-ghost">Direcții pe hartă</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Harta Norema Restaurant, Vasile Alecsandri 10, Oradea"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=21.9249%2C47.0505%2C21.9370%2C47.0575&layer=mapnik&marker=47.0540037%2C21.9309563"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-banner">
+  <div class="bg"><img src="assets/img/ph-hero-table.jpg" alt="Masă pregătită cu preparate variate" loading="lazy"></div>
+  <div class="wrap">
+    <h2>Ai un <em>eveniment</em> special?</h2>
+    <p>Botezuri, aniversări, mese în familie — locație primitoare pentru până la 40 de persoane. Spune-ne ce sărbătorești și ne ocupăm noi de restul.</p>
+    <div class="hero-actions">
+      <a href="tel:+40772175195" class="btn btn-primary">Rezervă pentru eveniment</a>
+      <a href="mailto:norema.restaurant@gmail.com?subject=Cerere%20eveniment%20Norema" class="btn btn-ghost">Scrie-ne un email</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="brand"><span class="mark">N</span><span>Norema<small>Restaurant · Oradea</small></span></a>
+        <p class="footer-about">Bucătărie tradițională românească și ardelenească, pizza pe vatră și un loc cald chiar în inima orașului Oradea. Din 2022.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/noremarestaurant" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/norema_restaurant/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="tel:+40772175195" aria-label="Telefon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Navigare</h5>
+        <ul>
+          <li><a href="#despre">Despre noi</a></li>
+          <li><a href="#meniu">Meniu</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#recenzii">Recenzii</a></li>
+          <li><a href="#vizita">Program & Locație</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Program</h5>
+        <ul>
+          <li>Luni – Joi: 10:00 – 22:00</li>
+          <li>Vineri – Sâmbătă: 10:00 – 23:00</li>
+          <li>Duminică: 10:00 – 22:00</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Norema+Restaurant+Vasile+Alecsandri+10+Oradea" target="_blank" rel="noopener">Str. Vasile Alecsandri 10, Oradea</a></li>
+          <li><a href="tel:+40772175195">+40 772 175 195</a></li>
+          <li><a href="mailto:norema.restaurant@gmail.com">norema.restaurant@gmail.com</a></li>
+          <li><a href="https://glovoapp.com/ro/ro/oradea/stores/norema-ord" target="_blank" rel="noopener">Comandă pe Glovo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Norema Restaurant · Oradea. Toate drepturile rezervate.</span>
+      <span>Str. Vasile Alecsandri 10 · Oradea, Bihor</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+40772175195" class="float-call" aria-label="Sună la Norema">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>

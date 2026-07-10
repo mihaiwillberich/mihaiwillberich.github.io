@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "barber", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "4599", "--directory", "/Users/mateimihai/Documents/Codex/2026-07-08/hey-gpt-i-have-an-exciting/sites/barber-bom-neo-suceava"], "port": 4599 }
+  ]
+}
