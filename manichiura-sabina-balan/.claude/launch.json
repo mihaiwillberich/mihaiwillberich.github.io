@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sabina-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8823", "--directory", "/Users/mateimihai/Documents/Codex/2026-07-08/hey-gpt-i-have-an-exciting/sites"],
+      "port": 8823
+    }
+  ]
+}
