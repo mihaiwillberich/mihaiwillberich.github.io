@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a63"/>
+      <stop offset="1" stop-color="#0f1b45"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- royal-blue mountain / A mark -->
+  <path d="M32 15 L46 44 H18 Z" fill="#3f63c9"/>
+  <path d="M32 15 L39 30 L32 33 L25 30 Z" fill="#5a7fe0"/>
+  <!-- water lines -->
+  <path d="M14 50 q6 -4 12 0 t12 0 t12 0" fill="none" stroke="#7fa2ec" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

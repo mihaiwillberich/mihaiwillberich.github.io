@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" role="img">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="48%" stop-color="#1b4a6b"/>
+      <stop offset="100%" stop-color="#0a1622"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#7fdcff" stop-opacity="0.16"/>
+      <stop offset="53%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#7fdcff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7fdcff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7fdcff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vign" cx="50%" cy="42%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#paint)"/>
+  
+  <g transform="rotate(-16 300 300)">
+    <rect x="120" y="-120" width="150" height="840" fill="url(#sweep)"/>
+    <rect x="330" y="-120" width="60" height="840" fill="url(#sweep)" opacity="0.5"/>
+  </g>
+  <path d="M-20,150 Q300,90 620,170" fill="none" stroke="#7fdcff" stroke-opacity="0.5" stroke-width="2"/>
+  <rect width="600" height="600" fill="url(#vign)"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Suprafață auto lucioasă cu reflexie de lumină">
+  <defs>
+    <radialGradient id="hg-vign" cx="62%" cy="34%" r="90%">
+      <stop offset="0%" stop-color="#12161c"/>
+      <stop offset="42%" stop-color="#0b0e13"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </radialGradient>
+    <linearGradient id="hg-paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e2230"/>
+      <stop offset="34%" stop-color="#123a4d"/>
+      <stop offset="55%" stop-color="#0c1b26"/>
+      <stop offset="100%" stop-color="#070d12"/>
+    </linearGradient>
+    <linearGradient id="hg-sweep" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#8fe3ff" stop-opacity="0.16"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="58%" stop-color="#37c6ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hg-refl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#57d6ff" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#57d6ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hg-orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bff0ff" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#3bb7ef" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3bb7ef" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hg-blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#hg-vign)"/>
+
+  <!-- glossy painted hood plane -->
+  <g transform="translate(0,0)">
+    <path d="M-40,560 Q640,470 1660,600 L1660,1040 L-40,1040 Z" fill="url(#hg-paint)"/>
+    <!-- horizon light reflection line -->
+    <path d="M-40,560 Q640,470 1660,600" fill="none" stroke="#7fdcff" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M-40,566 Q640,476 1660,606" fill="none" stroke="#0b1b26" stroke-opacity="0.6" stroke-width="6"/>
+    <!-- soft reflected glow on paint -->
+    <rect x="-40" y="566" width="1700" height="220" fill="url(#hg-refl)"/>
+  </g>
+
+  <!-- overhead light orb -->
+  <circle cx="1020" cy="300" r="260" fill="url(#hg-orb)" filter="url(#hg-blur)"/>
+  <circle cx="1020" cy="300" r="70" fill="#e6faff" opacity="0.55" filter="url(#hg-blur)"/>
+
+  <!-- diagonal detailing light sweep -->
+  <g transform="rotate(-14 800 500)">
+    <rect x="120" y="-200" width="360" height="1400" fill="url(#hg-sweep)"/>
+    <rect x="560" y="-200" width="120" height="1400" fill="url(#hg-sweep)" opacity="0.5"/>
+  </g>
+
+  <!-- fine micro-swirl marks catching light -->
+  <g stroke="#8fe3ff" stroke-opacity="0.06" fill="none" stroke-width="1.2">
+    <path d="M300,720 q60,-26 120,0 t120,0"/>
+    <path d="M520,760 q60,-26 120,0 t120,0"/>
+    <path d="M760,700 q60,-26 120,0 t120,0"/>
+    <path d="M980,760 q60,-26 120,0 t120,0"/>
+    <path d="M1180,720 q60,-26 120,0 t120,0"/>
+  </g>
+
+  <!-- water-bead speckle on gloss -->
+  <g fill="#cfefff" fill-opacity="0.14">
+    <circle cx="440" cy="690" r="3"/><circle cx="470" cy="705" r="2"/>
+    <circle cx="700" cy="740" r="3.5"/><circle cx="735" cy="726" r="2"/>
+    <circle cx="980" cy="700" r="3"/><circle cx="1010" cy="720" r="2.4"/>
+    <circle cx="1240" cy="736" r="3"/><circle cx="1270" cy="716" r="2"/>
+  </g>
+</svg>

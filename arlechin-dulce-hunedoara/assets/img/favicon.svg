@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9375d"/>
+      <stop offset="1" stop-color="#7a1f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- harlequin diamonds -->
+  <g fill="#f4d9a6" opacity="0.9">
+    <path d="M32 8 L40 20 L32 32 L24 20 Z"/>
+    <path d="M16 22 L24 34 L16 46 L8 34 Z" opacity="0.55"/>
+    <path d="M48 22 L56 34 L48 46 L40 34 Z" opacity="0.55"/>
+  </g>
+  <!-- cake -->
+  <g fill="#fff6ec">
+    <rect x="20" y="40" width="24" height="12" rx="3"/>
+    <path d="M20 44 q6 -5 12 0 q6 5 12 0 v2 h-24 Z" fill="#f4d9a6"/>
+  </g>
+  <circle cx="32" cy="36" r="2.4" fill="#f4d9a6"/>
+  <rect x="31.2" y="30" width="1.6" height="6" rx="0.8" fill="#f4d9a6"/>
+</svg>
