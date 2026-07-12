@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2740"/>
+      <stop offset="0.55" stop-color="#123f66"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3ff"/>
+      <stop offset="1" stop-color="#5aa9e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.12" fill="none" stroke="#bfe3ff" stroke-width="2">
+    <path d="M980 120c0 0-26 30-26 50a26 26 0 0 0 52 0c0-20-26-50-26-50z"/>
+    <path d="M1080 300c0 0-18 20-18 34a18 18 0 0 0 36 0c0-14-18-34-18-34z"/>
+    <circle cx="920" cy="330" r="8"/>
+  </g>
+  <path d="M120 250c0 0-30 34-30 58a30 30 0 0 0 60 0c0-24-30-58-30-58z" fill="url(#drop)" opacity="0.9"/>
+  <path d="M104 322a26 26 0 0 0 26 26" fill="none" stroke="#0b2740" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <text x="210" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="76" fill="#ffffff" font-weight="700">Spălătorie Ecologică</text>
+  <text x="212" y="330" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#bfe3ff" letter-spacing="3">CURĂȚĂTORIE ECOLOGICĂ · TÂRGOVIȘTE</text>
+  <text x="212" y="430" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#eaf4ff">Spălare, curățare ecologică și călcat haine &amp; lenjerie</text>
+  <text x="212" y="478" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#a9c9e6">Complex Muntenia · incinta Flanco</text>
+</svg>
