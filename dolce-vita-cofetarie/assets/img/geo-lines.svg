@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ddc089"/>
+      <stop offset="1" stop-color="#b0894f"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#g)" stroke-width="1.4" opacity="0.9">
+    <!-- central hexagon lockup echoing the DV monogram frame -->
+    <path d="M600 250 762 344 762 532 600 626 438 532 438 344Z"/>
+    <path d="M600 288 729 363 729 513 600 588 471 513 471 363Z" opacity="0.6"/>
+    <!-- radiating faceted lines -->
+    <path d="M600 250 600 40M762 344 980 210M762 532 980 690M600 626 600 860M438 532 220 690M438 344 220 210"/>
+    <path d="M0 120 438 344M1200 120 762 344M0 780 438 532M1200 780 762 532" opacity="0.5"/>
+    <!-- outer diamond scaffolding -->
+    <path d="M120 60 600 300 1080 60M120 840 600 600 1080 840" opacity="0.42"/>
+    <path d="M60 300 300 450 60 600M1140 300 900 450 1140 600" opacity="0.42"/>
+  </g>
+  <g fill="url(#g)" opacity="0.85">
+    <circle cx="600" cy="438" r="3.4"/>
+    <circle cx="600" cy="40" r="2.4"/>
+    <circle cx="600" cy="860" r="2.4"/>
+    <circle cx="980" cy="210" r="2.4"/>
+    <circle cx="220" cy="210" r="2.4"/>
+    <circle cx="980" cy="690" r="2.4"/>
+    <circle cx="220" cy="690" r="2.4"/>
+  </g>
+</svg>

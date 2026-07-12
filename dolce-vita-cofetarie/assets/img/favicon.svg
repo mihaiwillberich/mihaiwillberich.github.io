@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#393a3c"/>
+  <g fill="none" stroke="#cca369" stroke-width="2" stroke-linejoin="round">
+    <path d="M32 9 51 20v24L32 55 13 44V20z"/>
+    <path d="M32 14 46.5 22.4v19.2L32 50 17.5 41.6V22.4z" stroke-width="1.4" opacity="0.75"/>
+  </g>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="600" font-size="22" fill="#cfba81" letter-spacing="-1">DV</text>
+</svg>
