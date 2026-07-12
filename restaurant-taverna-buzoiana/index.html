@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Restaurant Taverna — Bucătărie tradițională românească în Buzău</title>
+<meta name="description" content="Restaurant Taverna din Buzău — meniu tradițional românesc și preparate internaționale, platouri la grătar, ciorbe în pâine și deserturi de casă. Strada Alexandru Marghiloman nr. 7, lângă centrul istoric." />
+<meta property="og:title" content="Restaurant Taverna | Buzău" />
+<meta property="og:description" content="Bucătărie tradițională românească în inima Buzăului — platouri la grătar, ciorbe în pâine, deserturi de casă." />
+<meta property="og:type" content="restaurant" />
+<meta property="og:image" content="assets/img/taverna-19.jpg" />
+<meta name="theme-color" content="#17130f" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Restaurant Taverna Buzău">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v7a3 3 0 0 0 3 3v8"/><path d="M7 3v7"/><path d="M10 3v7"/><path d="M18 3c-1.5 0-2.5 2-2.5 5s.5 5 2.5 5v8"/></svg>
+      </span>
+      <span class="brand-name"><b>Taverna</b><small>Buzău · din 2013</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="#despre">Despre</a>
+      <a href="#meniu">Meniu</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#pareri">Păreri</a>
+      <a href="#vizita">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a class="nav-phone" href="tel:+40748203500"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>0748 203 500</a>
+      <a class="btn btn-primary" href="tel:+40748203500">Rezervă o masă</a>
+      <button class="burger" id="burger" aria-label="Meniu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#despre">Despre</a>
+  <a href="#meniu">Meniu</a>
+  <a href="#galerie">Galerie</a>
+  <a href="#pareri">Păreri</a>
+  <a href="#vizita">Contact</a>
+  <a class="btn btn-primary" href="tel:+40748203500">Rezervă o masă</a>
+</div>
+
+<!-- ============================ HERO ============================ -->
+<header class="hero" id="top">
+  <div class="hero-bg">
+    <img src="assets/img/taverna-19.jpg" alt="Platou mare la grătar la Restaurant Taverna Buzău" />
+  </div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span>Deschis zilnic · 11:00 – 22:00</span>
+      <h1>Gustul de acasă, <em>la foc de vatră</em>.</h1>
+      <p class="hero-lead">În inima Buzăului, lângă centrul istoric, gătim zilnic bucătărie tradițională românească și preparate internaționale — platouri la grătar, ciorbe fierte în pâine și deserturi de casă.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+40748203500">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Sună pentru rezervare
+        </a>
+        <a class="btn btn-ghost" href="#meniu">Vezi meniul</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item">
+          <div class="k stars">★★★★☆</div>
+          <div class="l">4,3 / 5 pe Google &amp; RestaurantGuru</div>
+        </div>
+        <div class="item">
+          <div class="k">1.400+</div>
+          <div class="l">recenzii ale oaspeților</div>
+        </div>
+        <div class="item">
+          <div class="k">Zilnic</div>
+          <div class="l">bucătăria gătește proaspăt</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ MARQUEE ============================ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Platou Buzoian</span><span>Ciorbă de fasole în pâine</span><span>Sarmale cu mămăliguță</span><span>Somon la grătar</span><span>Papanași de casă</span><span>Tochitură moldovenească</span><span>Cârnați de Pleșcoi</span>
+    <span>Platou Buzoian</span><span>Ciorbă de fasole în pâine</span><span>Sarmale cu mămăliguță</span><span>Somon la grătar</span><span>Papanași de casă</span><span>Tochitură moldovenească</span><span>Cârnați de Pleșcoi</span>
+  </div>
+</div>
+
+<!-- ============================ DESPRE ============================ -->
+<section class="section about" id="despre">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <span class="eyebrow">Restaurant Taverna</span>
+        <h2>O tavernă buzoiană, cu masa mereu pusă.</h2>
+        <p>Restaurantul Taverna este situat în apropierea <strong>centrului istoric</strong> al orașului Buzău, într-o clădire cu arhitectură deosebită. Aici te vei simți întotdeauna bine primit — la o masă lungă, cu poftă și fără grabă.</p>
+        <p>Bucătăria noastră are specific <strong>tradițional românesc</strong>, dar și preparate internaționale, deserturi delicioase și băuturi pentru toate gusturile. Bucătarii gătesc zilnic, special pentru cei care ne calcă pragul.</p>
+        <p>De la platourile generoase la grătar și ciorbele fierte în pâine, până la papanașii de casă — servim porții mari, la prețuri corecte, în inima orașului.</p>
+        <div class="about-sign">Poftă bună!<small>Echipa Taverna Buzău</small></div>
+      </div>
+      <div class="about-media reveal">
+        <div class="frame">
+          <img src="assets/img/taverna-01.jpg" alt="Ceafă de porc la grătar cu cartofi și legume, servită la Taverna" />
+        </div>
+        <div class="tag">
+          <div class="n">10 ani+</div>
+          <div class="d">de gătit tradițional pentru buzoieni și oaspeții orașului</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FEATURES ============================ -->
+<section class="section features" style="background:var(--coal);">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">De ce Taverna</span>
+      <h2>Trei motive să te așezi la masă</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg></div>
+        <h3>Bucătărie de casă</h3>
+        <p>Rețete tradiționale românești gătite zilnic, alături de preparate internaționale și deserturi făcute în bucătărie.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v4M12 3v4M16 3v4"/><path d="M5 9h14l-1 11H6L5 9z"/></svg></div>
+        <h3>Platouri generoase</h3>
+        <p>Platouri la grătar pentru 2–6 persoane, cu cârnați de Pleșcoi, pastramă de oaie, mămăliguță și murături asortate.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0z"/><path d="M12 8v4l3 2"/></svg></div>
+        <h3>În centrul Buzăului</h3>
+        <p>La câțiva pași de centrul istoric, deschis zilnic 11:00–22:00. Ideal și pentru evenimente, nunți și botezuri.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MENIU ============================ -->
+<section class="section menu" id="meniu">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Din meniu</span>
+      <h2>Ce gătim în bucătărie</h2>
+      <p>O selecție din meniul à la carte. Prețurile sunt cele afișate în meniu; gramajele sunt orientative.</p>
+    </div>
+
+    <!-- Platouri -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Platouri &amp; Grătar</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-19.jpg" alt="Platou mare la grătar cu mititei, cârnați și mămăliguță" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Platou Buzoian <span class="badge pop">Signature</span></div>
+              <div class="dish-price">279 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">5200 g, 4–6 pers. — pastramă de oaie, ceafă de porc, piept de pui, mititei, cârnați de porc, cartofi cu brânză rasă, telemea la jar, murături, mămăliguță.</p>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-06.jpg" alt="Platou mixt la grătar pe fund de lemn cu mămăliguță" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Platou Mixt la Grătar</div>
+              <div class="dish-price">139 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">1750 g, 2 pers. — mușchi de vită, ceafă de porc, piept de pui, cartofi aurii, salată de legume la grătar.</p>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-05.jpg" alt="Coastă de porc marinată cu cartofi chips și sos barbeque" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Coastă de Porc Marinată</div>
+              <div class="dish-price">48 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">700 g — servită cu cartofi chips și sos barbeque.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Ciorbe -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Ciorbe &amp; Supe</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Ciorbă de fasole cu ciolan afumat, în pâine <span class="badge pop">Recomandat</span></div>
+            <p class="dish-desc">350/60 g — fasole și ciolan afumat, servite într-o pâine scobită.</p>
+          </div>
+          <div class="dish-price">37 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Ciorbă de burtă</div>
+            <p class="dish-desc">350/60 g — cu smântână și ardei iute alături.</p>
+          </div>
+          <div class="dish-price">21 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Ciorbă de cocoș cu tăiței de casă</div>
+            <p class="dish-desc">350/60 g — supă limpede, tăiței făcuți în casă.</p>
+          </div>
+          <div class="dish-price">19 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Supă de pui cu tăiței de casă</div>
+            <p class="dish-desc">350/60 g.</p>
+          </div>
+          <div class="dish-price">19 <small>lei</small></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Preparate tradiționale -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Tradiționale la farfurie</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-12.jpg" alt="Mititei și cârnați la grătar cu mămăliguță" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Tochitură moldovenească</div>
+              <div class="dish-price">42 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">500 g — carne de porc, cârnați, sos de roșii, mămăliguță, brânză, ou ochi.</p>
+          </div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Sărmăluțe cu mămăliguță, ardei și afumătură</div>
+            <p class="dish-desc">6 buc. — sarmale de casă, cu mămăliguță și ardei iute.</p>
+          </div>
+          <div class="dish-price">29 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Ciolan afumat cu iahnie de fasole</div>
+            <p class="dish-desc">350/200 g.</p>
+          </div>
+          <div class="dish-price">42 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Cârnați de Pleșcoi cu mămăliguță</div>
+            <p class="dish-desc">250/200 g — cârnații iuți, specific buzoian.</p>
+          </div>
+          <div class="dish-price">39 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Pomana porcului cu mămăliguță și murături</div>
+            <p class="dish-desc">400/200/200 g.</p>
+          </div>
+          <div class="dish-price">35 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Bulz ciobănesc</div>
+            <p class="dish-desc">400 g — mămăliguță, kaizer, telemea de vacă, brânză de burduf, ou.</p>
+          </div>
+          <div class="dish-price">32 <small>lei</small></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Pește & fructe de mare -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Pește &amp; Fructe de mare</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-09.jpg" alt="Somon la grătar cu cartofi și salată" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Somon la grătar <span class="badge sea">Pește</span></div>
+              <div class="dish-price">51 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">250 g — file de somon la grătar, garnitură la alegere.</p>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-15.jpg" alt="Salată cu caracatiță și rucola" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Fructe de mare la tigaie <span class="badge sea">Marea</span></div>
+              <div class="dish-price">55 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">400 g — caracatiță, carne de midii, inele de calamar, creveți, midii întregi, roșii.</p>
+          </div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Saramură de crap cu legume și mămăliguță</div>
+            <p class="dish-desc">250/100/200 g.</p>
+          </div>
+          <div class="dish-price">42 <small>lei</small></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Aperitive & Salate -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Aperitive &amp; Salate</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-08.jpg" alt="Platou rece cu mezeluri, brânzeturi și legume" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Platou rece Taverna</div>
+              <div class="dish-price">109 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">1200 g, 2 pers. — salam și cârnați uscați, mușchi țigănesc, babic, șorici, brânză de oaie, cașcaval afumat, urdă cu mărar, măsline, legume.</p>
+          </div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Cașcaval pane</div>
+            <p class="dish-desc">250 g — cu sos la alegere.</p>
+          </div>
+          <div class="dish-price">25 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Salată Caesar</div>
+            <p class="dish-desc">400 g — salată verde, crutoane, piept de pui la grătar, parmezan, sos cu anșoa și ou.</p>
+          </div>
+          <div class="dish-price">32 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Salată grecească</div>
+            <p class="dish-desc">400 g — salată verde, roșie, castravete, ardei, ceapă roșie, feta, măsline.</p>
+          </div>
+          <div class="dish-price">26 <small>lei</small></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Deserturi -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Deserturi de casă</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-18.jpg" alt="Tort de mere cu caramel" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Tort de mere cu caramel și înghețată</div>
+              <div class="dish-price">23 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">200/50 g — servit cald, cu o cupă de înghețată.</p>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-photo"><img src="assets/img/taverna-13.jpg" alt="Desert cu fructe de pădure și înghețată" loading="lazy" /></div>
+          <div class="dish-body">
+            <div class="dish-top">
+              <div class="dish-name">Papanași cu smântână și dulceață</div>
+              <div class="dish-price">26 <small>lei</small></div>
+            </div>
+            <p class="dish-desc">2 buc. — cu dulceață de afine sau vișine.</p>
+          </div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Vulcan de ciocolată cu înghețată</div>
+            <p class="dish-desc">250/50 g.</p>
+          </div>
+          <div class="dish-price">23 <small>lei</small></div>
+        </article>
+        <article class="dish no-photo">
+          <div class="dish-body">
+            <div class="dish-name">Clătită Taverna</div>
+            <p class="dish-desc">250 g — mascarpone, miere, banană, nuci, fulgi de migdale, frișcă.</p>
+          </div>
+          <div class="dish-price">23 <small>lei</small></div>
+        </article>
+      </div>
+    </div>
+
+    <p class="menu-note">Meniul complet à la carte include peste 150 de preparate — antreuri, paste &amp; risotto, preparate din pui, porc, vițel și miel, garnituri, meniu de post și băuturi. Pentru meniul zilei și rezervări, sună-ne.</p>
+    <div class="menu-cta">
+      <a class="btn btn-primary" href="tel:+40748203500">Sună pentru rezervare</a>
+      <a class="btn btn-ghost" href="#vizita">Vezi programul &amp; adresa</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ GALERIE ============================ -->
+<section class="section gallery" id="galerie">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Galerie</span>
+      <h2>De pe masa noastră</h2>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gcell g-tall"><img src="assets/img/taverna-06.jpg" alt="Platou mixt la grătar pe fund de lemn" loading="lazy" /><span class="cap">Platou la grătar</span></div>
+      <div class="gcell"><img src="assets/img/taverna-08.jpg" alt="Platou rece cu mezeluri și brânzeturi" loading="lazy" /><span class="cap">Platou rece</span></div>
+      <div class="gcell g-wide"><img src="assets/img/taverna-17.jpg" alt="Preparate la grătar cu telemea la jar și mămăliguță" loading="lazy" /><span class="cap">La jar</span></div>
+      <div class="gcell"><img src="assets/img/taverna-02.jpg" alt="Platou de aperitive cu mezeluri și legume" loading="lazy" /><span class="cap">Aperitive</span></div>
+      <div class="gcell"><img src="assets/img/taverna-03.jpg" alt="Tochitură cu mămăliguță la pachet" loading="lazy" /><span class="cap">Tochitură</span></div>
+      <div class="gcell"><img src="assets/img/taverna-14.jpg" alt="Platou generos de aperitive asortate" loading="lazy" /><span class="cap">Asortate</span></div>
+      <div class="gcell g-wide"><img src="assets/img/taverna-07.jpg" alt="Platou de grătar pe lemn cu cârnați și telemea" loading="lazy" /><span class="cap">Grătar pe lemn</span></div>
+      <div class="gcell"><img src="assets/img/taverna-11.jpg" alt="Farfurie de gustări reci elegante" loading="lazy" /><span class="cap">Gustări reci</span></div>
+      <div class="gcell g-tall"><img src="assets/img/taverna-10.jpg" alt="Farfurie fină de aperitive cu flori comestibile" loading="lazy" /><span class="cap">Antreuri</span></div>
+      <div class="gcell"><img src="assets/img/taverna-01.jpg" alt="Ceafă de porc la grătar cu cartofi" loading="lazy" /><span class="cap">Ceafă la grătar</span></div>
+      <div class="gcell"><img src="assets/img/taverna-13.jpg" alt="Desert cu fructe de pădure" loading="lazy" /><span class="cap">Deserturi</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PĂRERI ============================ -->
+<section class="section reviews" id="pareri">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Ce spun oaspeții</span>
+      <h2>4,3 din 5, din peste 1.400 de păreri</h2>
+      <p>Recenzii reale ale oaspeților de pe TripAdvisor, Google și RestaurantGuru.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review reveal">
+        <div class="ic-quote">&ldquo;</div>
+        <p>O bijuterie ascunsă a Buzăului. Restaurant de familie, cu un meniu tradițional românesc senzațional și un raport calitate-preț excelent.</p>
+        <div class="who">
+          <div class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div><div class="nm">Muntean C.</div><div class="src">★★★★★ · TripAdvisor</div></div>
+        </div>
+      </div>
+      <div class="review reveal">
+        <div class="ic-quote">&ldquo;</div>
+        <p>Mâncare locală foarte bună, cu porții uriașe. Un must este ciorba de fasole în pâine — o primești într-o pâine scobită. Ieftin și personal amabil.</p>
+        <div class="who">
+          <div class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div><div class="nm">Roger F.</div><div class="src">★★★★☆ · TripAdvisor</div></div>
+        </div>
+      </div>
+      <div class="review reveal">
+        <div class="ic-quote">&ldquo;</div>
+        <p>Aproape de centru, un loc chiar plăcut. Servesc mâncare românească gustoasă, iar ospătarii vorbesc și engleză și îți iau comanda cu drag.</p>
+        <div class="who">
+          <div class="av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div><div class="nm">Nicolae B.</div><div class="src">★★★★★ · TripAdvisor</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA BANNER ============================ -->
+<section class="cta-banner">
+  <div class="bg"><img src="assets/img/taverna-06.jpg" alt="Platou de grătar la Taverna Buzău" /></div>
+  <div class="wrap">
+    <span class="eyebrow">Evenimente</span>
+    <h2>Nunți, botezuri &amp; <em>mese de sărbătoare</em></h2>
+    <p>Taverna este o locație ideală pentru evenimente, cu spații pentru grupuri mici și mari. Vino la o vizionare sau rezervă o masă — te așteptăm zilnic.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="tel:+40748203500">Sună-ne: 0748 203 500</a>
+      <a class="btn btn-ghost" href="mailto:taverna.restaurant@yahoo.com">Scrie-ne un email</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ VIZITĂ / MAP ============================ -->
+<section class="section visit" id="vizita">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Ne găsești aici</span>
+      <h2>Vino la Taverna</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <h4>Adresă</h4>
+            <p>Strada Alexandru Marghiloman nr. 7<br />Buzău 120031, județul Buzău<br />lângă centrul istoric</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div>
+            <h4>Telefon</h4>
+            <p><a href="tel:+40748203500">0748 203 500</a> · <a href="tel:+40338100217">0338 100 217</a></p>
+            <p><a href="mailto:taverna.restaurant@yahoo.com">taverna.restaurant@yahoo.com</a></p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div>
+            <h4>Program</h4>
+            <div class="hours-row"><span>Luni – Duminică</span><span>11:00 – 22:00</span></div>
+            <div class="hours-row"><span>Bucătăria</span><span>deschisă zilnic</span></div>
+          </div>
+        </div>
+        <div class="visit-actions">
+          <a class="btn btn-primary" href="tel:+40748203500">Sună acum</a>
+          <a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat=45.15477&amp;mlon=26.82558#map=18/45.15477/26.82558" target="_blank" rel="noopener">Deschide harta</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Harta Restaurant Taverna, Strada Alexandru Marghiloman 7, Buzău"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=26.8195%2C45.1517%2C26.8316%2C45.1578&amp;layer=mapnik&amp;marker=45.15477%2C26.82558"
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="brand">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v7a3 3 0 0 0 3 3v8"/><path d="M7 3v7"/><path d="M10 3v7"/><path d="M18 3c-1.5 0-2.5 2-2.5 5s.5 5 2.5 5v8"/></svg>
+          </span>
+          <span class="brand-name"><b>Taverna</b><small>Buzău</small></span>
+        </a>
+        <p class="footer-about">Bucătărie tradițională românească și preparate internaționale, în inima Buzăului. Poftă bună!</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/people/Restaurant-Taverna/100089761729748/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="tel:+40748203500" aria-label="Telefon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Meniu</h5>
+        <ul>
+          <li><a href="#meniu">Platouri &amp; Grătar</a></li>
+          <li><a href="#meniu">Ciorbe &amp; Supe</a></li>
+          <li><a href="#meniu">Tradiționale</a></li>
+          <li><a href="#meniu">Deserturi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Navigare</h5>
+        <ul>
+          <li><a href="#despre">Despre</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#pareri">Păreri</a></li>
+          <li><a href="#vizita">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Str. Alexandru Marghiloman nr. 7</li>
+          <li>Buzău 120031</li>
+          <li><a href="tel:+40748203500">0748 203 500</a></li>
+          <li><a href="mailto:taverna.restaurant@yahoo.com">taverna.restaurant@yahoo.com</a></li>
+          <li>Zilnic 11:00 – 22:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Restaurant Taverna Buzău. Toate drepturile rezervate.</span>
+      <span>Poftă bună!</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================ FLOAT CALL (mobile) ============================ -->
+<a class="float-call" href="tel:+40748203500" aria-label="Sună la Taverna">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<script>
+  // Sticky nav state
+  var nav = document.getElementById('nav');
+  var onScroll = function () { nav.classList.toggle('scrolled', window.scrollY > 24); };
+  onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Mobile menu
+  var burger = document.getElementById('burger');
+  var mobileMenu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function () {
+    var open = mobileMenu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileMenu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      mobileMenu.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Reveal on scroll
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+</body>
+</html>
