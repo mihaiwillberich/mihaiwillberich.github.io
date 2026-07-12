@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROWA Bistro Târgoviște — Mâncare sănătoasă, dulciuri fără zahăr & sucuri naturale</title>
+<meta name="description" content="ROWA Bistro din Târgoviște, Strada Madrid 5 (Class Park Residence) — mâncare și dulciuri fără zahăr, sucuri energy & detox făcute proaspăt, fără aditivi. Bistro, sweets, coffee & catering. Comenzi: 0756 993 993.">
+<meta name="keywords" content="ROWA Bistro, Targoviste, mancare sanatoasa Targoviste, fara zahar, gluten free, bowl, falafel, dulciuri fara zahar, sucuri naturale, catering Targoviste, Class Park Residence">
+<meta name="author" content="ROWA Bistro">
+<meta name="theme-color" content="#17221a">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="ROWA Bistro Târgoviște">
+<meta property="og:title" content="ROWA Bistro Târgoviște — Mâncare sănătoasă & dulciuri fără zahăr">
+<meta property="og:description" content="Mâncare și dulciuri fără zahăr, sucuri energy & detox făcute proaspăt, fără aditivi. Bistro, sweets, coffee & catering în Târgoviște. Comenzi: 0756 993 993.">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:image" content="assets/img/exterior-storefront.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ROWA Bistro Târgoviște">
+<meta name="twitter:description" content="Mâncare sănătoasă, dulciuri fără zahăr și sucuri naturale în Târgoviște.">
+<meta name="twitter:image" content="assets/img/exterior-storefront.jpg">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "ROWA Bistro",
+  "image": "assets/img/exterior-storefront.jpg",
+  "servesCuisine": ["Healthy", "Vegetarian", "Mediterranean", "Bistro", "Bakery"],
+  "priceRange": "$$",
+  "telephone": "+40756993993",
+  "url": "https://www.rowafoods.ro",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Madrid 5, Class Park Residence",
+    "addressLocality": "Târgoviște",
+    "addressRegion": "Dâmbovița",
+    "postalCode": "130004",
+    "addressCountry": "RO"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 44.9401739, "longitude": 25.4617671 },
+  "sameAs": [
+    "https://www.facebook.com/RowaBistro/",
+    "https://www.rowafoods.ro"
+  ],
+  "acceptsReservations": "True"
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="ROWA Bistro — acasă">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3c3 3.4 4.9 5.9 4.9 8.4A4.9 4.9 0 0 1 12 16.3a4.9 4.9 0 0 1-4.9-4.9C7.1 8.9 9 6.4 12 3z" fill="#fff"/></svg>
+      </span>
+      <span class="brand-name"><b>ROWA</b><small>Bistro · Târgoviște</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Navigație principală">
+      <a href="#despre">Despre</a>
+      <a href="#meniu">Meniu</a>
+      <a href="#zilei">Meniul zilei</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#vizita">Contact & Locație</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+40756993993" class="nav-phone" aria-label="Sună la ROWA Bistro">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0756 993 993
+      </a>
+      <a href="tel:+40756993993" class="btn btn-primary">Comandă acum</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Deschide meniul" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Meniu mobil">
+  <a href="#despre">Despre</a>
+  <a href="#meniu">Meniu</a>
+  <a href="#zilei">Meniul zilei</a>
+  <a href="#galerie">Galerie</a>
+  <a href="#vizita">Contact & Locație</a>
+  <a href="tel:+40756993993" class="btn btn-primary">Comandă la telefon</a>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Introducere">
+  <div class="hero-bg">
+    <img src="assets/img/exterior-storefront.jpg" alt="Localul ROWA Bistro & Coffee din Târgoviște, Class Park Residence" fetchpriority="high" width="1600" height="1200">
+  </div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span> Făcut proaspăt, zilnic · fără zahăr, fără aditivi</span>
+      <h1>Mâncare bună, care îți dă <em>energie</em>.</h1>
+      <p class="hero-lead">La ROWA gătim sănătos în inima Târgoviștei: bowl-uri și burgeri, dulciuri fără zahăr, sucuri energy & detox stoarse proaspăt și un meniu al zilei schimbat în fiecare zi. Bistro, sweets, coffee & catering.</p>
+      <div class="hero-actions">
+        <a href="tel:+40756993993" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Comandă la 0756 993 993
+        </a>
+        <a href="#meniu" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.35)">Vezi meniul</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item">
+          <div class="k">Fără zahăr</div>
+          <div class="l">dulciuri și preparate cu îndulcitori naturali</div>
+        </div>
+        <div class="item">
+          <div class="k">Gluten free</div>
+          <div class="l">opțiuni fără gluten în tot meniul</div>
+        </div>
+        <div class="item">
+          <div class="k stars">★★★★★</div>
+          <div class="l">peste 4.400 de aprecieri pe Facebook</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Fără zahăr</span><span>Gluten free</span><span>Sucuri & detox proaspete</span><span>Bowl-uri fresh</span><span>Burgeri & pizza</span><span>Dulciuri de casă</span><span>Catering la birou</span>
+    <span>Fără zahăr</span><span>Gluten free</span><span>Sucuri & detox proaspete</span><span>Bowl-uri fresh</span><span>Burgeri & pizza</span><span>Dulciuri de casă</span><span>Catering la birou</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="despre">
+  <div class="wrap about-grid">
+    <div class="about-copy reveal">
+      <span class="eyebrow">Food from nature</span>
+      <h2>Mâncare gustoasă, ingrediente atent alese.</h2>
+      <p>ROWA înseamnă <strong>mâncare și dulciuri fără zahăr</strong>, <strong>sucuri energy & detox făcute proaspăt</strong> și preparate din ingrediente naturale, <strong>fără conservanți și fără bazacoli</strong>. Gătim zilnic, la Class Park Residence din Târgoviște.</p>
+      <p>De la bowl-uri cu quinoa și avocado, la burgeri vegetali gluten free, falafel, shaorma de pleurotus, pizza la felie și torturi fără zahăr — fiecare farfurie e gândită să te lase sătul și cu energie, nu greoi.</p>
+      <p>Poți lua prânzul la noi, poți comanda la birou sau acasă, ori ne poți lăsa nouă un <strong>catering</strong> pentru evenimentul tău. Oricum ar fi, mâncarea rămâne curată și proaspătă.</p>
+      <div class="about-sign">
+        Cu drag, echipa ROWA
+        <small>Strada Madrid 5 · Class Park Residence · Târgoviște</small>
+      </div>
+    </div>
+    <div class="about-media reveal">
+      <div class="frame">
+        <img src="assets/img/bowl-kale-mediteranean.jpg" alt="Bowl-uri fresh cu legume, quinoa și avocado la ROWA Bistro Târgoviște" loading="lazy" width="1125" height="1500">
+      </div>
+      <div class="tag">
+        <div class="n">100% natural</div>
+        <div class="d">fără conservanți, fără aditivi, fără zahăr adăugat</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section features">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="color:var(--gold)">De ce ROWA</span>
+      <h2>Sănătos, dar cu gust adevărat</h2>
+      <p>Trei motive pentru care târgoviștenii revin la noi zi de zi.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></div>
+        <h3>Fără zahăr, fără aditivi</h3>
+        <p>Preparatele și dulciurile noastre folosesc îndulcitori și arome naturale — fără zahăr adăugat, fără conservanți, fără bazacoli.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 8z"/><path d="M9 8V5a3 3 0 0 1 6 0v3"/><path d="M9 12l1.5 6M15 12l-1.5 6"/></svg></div>
+        <h3>Sucuri & detox proaspete</h3>
+        <p>Limonade naturale, smoothie-uri și sucuri energy & detox stoarse pe loc, din fructe, legume și verdețuri — nimic la pungă.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M2 13h20"/></svg></div>
+        <h3>Bistro, sweets, coffee & catering</h3>
+        <p>Prânz zilnic, dulciuri de casă, cafea și un serviciu de catering pentru birou, acasă sau evenimente. Comenzi rapide în Târgoviște.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="section menu" id="meniu">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Meniul nostru</span>
+      <h2>Din bucătăria ROWA</h2>
+      <p>O selecție din preparatele noastre de zi cu zi, cu prețuri în lei. Meniul complet și noutățile se schimbă des — le găsești în bistro sau ni le poți cere la telefon.</p>
+    </div>
+
+    <div class="menu-tabs reveal">
+      <a href="#cat-brunch">Sandwich & Brunch</a>
+      <a href="#cat-burger">Burgeri & Pizza</a>
+      <a href="#cat-bowl">Bowl-uri, Wraps & Salate</a>
+      <a href="#cat-tartinabile">Tartinabile & Crackers</a>
+      <a href="#cat-dulciuri">Dulciuri fără zahăr</a>
+      <a href="#cat-bauturi">Băuturi de sezon</a>
+    </div>
+
+    <!-- Sandwich & Brunch -->
+    <div class="menu-cat reveal" id="cat-brunch">
+      <div class="menu-cat-head"><h3>Sandwich & Brunch</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/sandwich-cald.jpg" alt="Mini sandwich cald cu mozzarella la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mini Sandwich cald Mozzarella</h4><span class="dish-price">12 <small>lei</small></span></div><p class="dish-desc">Sandwich cald cu mozzarella, ingrediente naturale.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/combo-proteic.jpg" alt="Combo proteic cu pizza la felie și bowl fresh la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mini Sandwich Vegan cu pastă <span class="badge veg">Vegan</span></h4><span class="dish-price">12 <small>lei</small></span></div><p class="dish-desc">Variantă vegană, cu pastă tartinabilă de casă.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Mini Sandwich cu Omletă</h4></div><p class="dish-desc">Omletă pufoasă în pâine proaspătă.</p></div><span class="dish-price">12 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Quiche cu spanac, la felie</h4></div><p class="dish-desc">Tartă sărată cu spanac.</p></div><span class="dish-price">18 <small>lei</small></span></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/iaurt-granola.jpg" alt="Iaurt de caju cu granola de ciocolată la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Iaurt Caju cu Granola Ciocolată sau Mango <span class="badge veg">Vegan</span></h4><span class="dish-price">18 <small>lei</small></span></div><p class="dish-desc">Iaurt de caju cu granola de ciocolată sau mango.</p></div></article>
+      </div>
+    </div>
+
+    <!-- Burgeri & Pizza -->
+    <div class="menu-cat reveal" id="cat-burger">
+      <div class="menu-cat-head"><h3>Burgeri & Pizza</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/burger-vegetal.jpg" alt="Burger vegetal gluten free la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Burger American</h4><span class="dish-price">34 <small>lei</small></span></div><p class="dish-desc">Burger cu chiftă vegetală, legume proaspete și sos de casă.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/falafel.jpg" alt="Burger crispy cu chiftă cu semințe la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Burger Crispy <span class="badge gf">Gluten free</span></h4><span class="dish-price">34 <small>lei</small></span></div><p class="dish-desc">Chiftă albă cu semințe, crocantă, servită în chiflă.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-felie.jpg" alt="Pizza Margherita la felie la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Vegană / Margherita — la felie <span class="badge veg">Vegan</span></h4><span class="dish-price">10 <small>lei</small></span></div><p class="dish-desc">Felie de pizza vegană sau margherita.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-margherita.jpg" alt="Pizza Quattro Formaggi la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pizza Quattro Formaggi — la felie</h4><span class="dish-price">11 <small>lei</small></span></div><p class="dish-desc">Felie de pizza cu patru sortimente de brânză.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Cartofi pai</h4></div><p class="dish-desc">Garnitură crocantă.</p></div><span class="dish-price">8 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Sos (alb, usturoi, roșu sau iaurt)</h4></div><p class="dish-desc">Sosuri de casă, la alegere.</p></div><span class="dish-price">3 <small>lei</small></span></article>
+      </div>
+    </div>
+
+    <!-- Bowls, Wraps & Salate -->
+    <div class="menu-cat reveal" id="cat-bowl">
+      <div class="menu-cat-head"><h3>Bowl-uri, Wraps & Salate</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/bowl-kale-mediteranean.jpg" alt="Bowl Kale cu rucola și avocado la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Bowl Kale, rucola și avocado <span class="badge gf">Gluten free</span></h4><span class="dish-price">24 <small>lei</small></span></div><p class="dish-desc">Kale, rucola, avocado și legume proaspete.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Bowl Mediteranean cu Quinoa <span class="badge gf">Gluten free</span></h4></div><p class="dish-desc">Quinoa, legume și dressing mediteranean.</p></div><span class="dish-price">24 <small>lei</small></span></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/hummus-chimichuri.jpg" alt="Combo cu hummus și sos chimichurri la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Shaorma Pleurotus</h4><span class="dish-price">29 <small>lei</small></span></div><p class="dish-desc">Shaorma cu ciuperci pleurotus, în locul cărnii.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/falafel-board.jpg" alt="Wrap mediteranean cu falafel și tzatziki la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Wrap mediteranean cu tzatziki</h4><span class="dish-price">24 <small>lei</small></span></div><p class="dish-desc">Wrap cu legume și sos tzatziki.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Tabouleh cu Quinoa <span class="badge gf">Gluten free</span></h4></div><p class="dish-desc">Salată tabouleh cu quinoa și verdețuri.</p></div><span class="dish-price">13 <small>lei</small></span></article>
+      </div>
+    </div>
+
+    <!-- Tartinabile, Pâine & Crackers -->
+    <div class="menu-cat reveal" id="cat-tartinabile">
+      <div class="menu-cat-head"><h3>Tartinabile, Pâine & Crackers</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/crackers-ovaz-chia.jpg" alt="Crackers din ovăz și chia, gluten free, la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Crackers din ovăz cu semințe / 100g <span class="badge gf">Gluten free</span></h4><span class="dish-price">15 <small>lei</small></span></div><p class="dish-desc">Crackers copți din ovăz și semințe.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Icre de Amarant</h4></div><p class="dish-desc">Tartinabil vegetal din amarant.</p></div><span class="dish-price">19 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pate Mediteranean</h4></div><p class="dish-desc">Pate vegetal de casă.</p></div><span class="dish-price">15 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Pâine cu semințe / 900g</h4></div><p class="dish-desc">Pâine de casă cu semințe.</p></div><span class="dish-price">25 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Chiflă Slim <span class="badge gf">Fără gluten</span></h4></div><p class="dish-desc">Chiflă ușoară, fără gluten.</p></div><span class="dish-price">3 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Cipsuri proteice din migdale și chimen / 50g</h4></div><p class="dish-desc">Snack proteic, crocant.</p></div><span class="dish-price">7 <small>lei</small></span></article>
+      </div>
+    </div>
+
+    <!-- Dulciuri fără zahăr -->
+    <div class="menu-cat reveal" id="cat-dulciuri">
+      <div class="menu-cat-head"><h3>Dulciuri fără zahăr</h3><span class="menu-cat-line"></span><span class="cat-note">Fără zahăr adăugat</span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/napolitane.jpg" alt="Napolitane cu nucă și cacao, fără zahăr, la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Napolitane cu Nucă și Cacao</h4><span class="dish-price">10 <small>lei</small></span></div><p class="dish-desc">Napolitane de casă cu nucă și cacao.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/briose-gluten-free.jpg" alt="Brioșe gluten free la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Brioșe cu Vișine <span class="badge gf">Gluten free</span></h4><span class="dish-price">5 <small>lei</small></span></div><p class="dish-desc">Brioșe pufoase, fără gluten.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/tort-tiramisu.jpg" alt="Macarons cu ciocolată la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Macarons cu Ciocolată</h4><span class="dish-price">12 <small>lei</small></span></div><p class="dish-desc">Macarons cu mousse de ciocolată.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Banana Bread cu Nuci</h4></div><p class="dish-desc">Chec de banane cu nuci.</p></div><span class="dish-price">10 <small>lei</small></span></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/tarta-fructe.jpg" alt="Tartă cu fructe, fără zahăr, la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Torturi & tarte fără zahăr</h4><span class="dish-price">la felie</span></div><p class="dish-desc">Torturi, cheesecake-uri și tarte cu fructe, fără zahăr adăugat — perfecte pentru aniversări.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/bomboane-cocos.jpg" alt="Bomboane cu cocos, fără zahăr, la ROWA Bistro" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Bomboane & dulciuri de casă</h4><span class="dish-price">de casă</span></div><p class="dish-desc">Bomboane fine cu cocos și alte dulciuri făcute în bistro.</p></div></article>
+      </div>
+    </div>
+
+    <!-- Băuturi de sezon -->
+    <div class="menu-cat reveal" id="cat-bauturi">
+      <div class="menu-cat-head"><h3>Băuturi de sezon</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/limonada-naturala.jpg" alt="Limonadă naturală făcută proaspăt la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Limonadă naturală</h4><span class="dish-price">18 <small>lei</small></span></div><p class="dish-desc">De cătină, căpșuni sau lămâie & ananas — stoarsă proaspăt.</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/smoothie-capsuni.jpg" alt="Smoothie natural cu fructe la ROWA Bistro Târgoviște" loading="lazy"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Smoothie Fresh Natural</h4><span class="dish-price">18 <small>lei</small></span></div><p class="dish-desc">Cu fructe, pătrunjel sau spanac — energy & detox.</p></div></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Suc de pătrunjel / spanac</h4></div><p class="dish-desc">Suc detox stors pe loc.</p></div><span class="dish-price">18 <small>lei</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Cafea Inka cu Lapte</h4></div><p class="dish-desc">Băutură caldă din cereale, fără cofeină.</p></div><span class="dish-price">18 <small>lei</small></span></article>
+      </div>
+    </div>
+
+    <p class="menu-note">Fotografiile sunt cu preparatele noastre (sursă: pagina de Facebook ROWA Bistro). Meniul, gramajele și prețurile se pot modifica; noutățile apar des în bistro. Verifică disponibilitatea la telefon.</p>
+    <div class="menu-cta">
+      <a href="tel:+40756993993" class="btn btn-primary">Comandă la telefon</a>
+      <a href="https://www.facebook.com/RowaBistro/" target="_blank" rel="noopener" class="btn btn-ghost">Vezi noutățile pe Facebook</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENIUL ZILEI ============ -->
+<section class="section boards" id="zilei">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Meniul zilei</span>
+      <h2>Prânz proaspăt, în fiecare zi</h2>
+      <p>Supă sau ciorbă, un fel principal, un desert fără zahăr și o băutură naturală — combo prânz (supă + fel principal) la <strong>36 lei</strong>. Meniul se schimbă zilnic.</p>
+    </div>
+    <div class="combo-strip reveal">
+      <div class="ci"><b>36 lei</b> · Combo prânz</div>
+      <p>Supă / ciorbă + fel principal. Comenzile plasate între 08:00–11:00 sunt livrate cu prioritate, începând cu ora 12:00.</p>
+      <a href="tel:+40756993993" class="btn btn-light">Comandă prânzul</a>
+    </div>
+    <div class="boards-grid reveal">
+      <div class="board-card">
+        <img src="assets/img/meniu-zilei-board.jpg" alt="Meniul zilei ROWA Bistro Târgoviște, cu preparate și prețuri" loading="lazy" width="800" height="1200">
+        <span class="cap">Meniul zilei <span>· supe, feluri principale, deserturi & smoothie-uri</span></span>
+      </div>
+      <div class="board-card">
+        <img src="assets/img/meniu-bistro-bakery.jpg" alt="Meniul Bistrò Bakery ROWA Târgoviște, cu sandwich-uri, burgeri, bowl-uri și băuturi" loading="lazy" width="800" height="1200">
+        <span class="cap">Bistrò Bakery <span>· sandwich-uri, burgeri, bowl-uri & băuturi de sezon</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="galerie">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Galerie</span>
+      <h2>O privire în bucătăria ROWA</h2>
+      <p>Câteva dintre preparatele și dulciurile care te așteaptă la noi.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gcell g-tall g-wide"><img src="assets/img/multi-ani-tort.jpg" alt="Tort aniversar cu fructe, fără zahăr, la ROWA Bistro" loading="lazy"><span class="cap">Torturi aniversare fără zahăr</span></div>
+      <div class="gcell"><img src="assets/img/burger-vegetal.jpg" alt="Burger vegetal gluten free" loading="lazy"><span class="cap">Burgeri vegetali</span></div>
+      <div class="gcell"><img src="assets/img/falafel.jpg" alt="Falafel de casă la ROWA Bistro" loading="lazy"><span class="cap">Falafel de casă</span></div>
+      <div class="gcell"><img src="assets/img/lasagna-beyond.jpg" alt="Combo proteic cu lasagna Beyond la ROWA Bistro" loading="lazy"><span class="cap">Combo proteic</span></div>
+      <div class="gcell"><img src="assets/img/smoothie-capsuni.jpg" alt="Smoothie natural cu căpșuni" loading="lazy"><span class="cap">Smoothie & detox</span></div>
+      <div class="gcell g-wide"><img src="assets/img/tort-fructe-padure.jpg" alt="Tort cu fructe de pădure fără zahăr la ROWA Bistro" loading="lazy"><span class="cap">Dulciuri fără zahăr</span></div>
+      <div class="gcell"><img src="assets/img/pizza-felie.jpg" alt="Pizza la felie la ROWA Bistro Târgoviște" loading="lazy"><span class="cap">Pizza la felie</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-banner">
+  <div class="bg"><img src="assets/img/multi-ani-tort.jpg" alt="Tort aniversar cu fructe la ROWA Bistro Târgoviște" loading="lazy"></div>
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--gold)">Catering & evenimente</span>
+    <h2>Un <em>eveniment</em> sănătos, făcut de noi?</h2>
+    <p>Aniversare, cină de firmă, prânz la birou sau o comandă mare pentru acasă — ROWA se ocupă de catering cu mâncare curată, dulciuri fără zahăr și băuturi naturale. Spune-ne ce pui la cale.</p>
+    <div class="hero-actions">
+      <a href="tel:+40756993993" class="btn btn-primary">Sună pentru catering</a>
+      <a href="https://www.facebook.com/RowaBistro/" target="_blank" rel="noopener" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.35)">Scrie-ne pe Facebook</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="vizita">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact & Locație</span>
+      <h2>Ne găsești la Class Park Residence</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Adresă</h4><p><a href="https://www.google.com/maps/search/?api=1&query=ROWA+Bistro+Strada+Madrid+5+Class+Park+Residence+Targoviste" target="_blank" rel="noopener">Strada Madrid 5, Class Park Residence, Târgoviște, Dâmbovița</a></p></div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><h4>Comenzi & telefon</h4><p><a href="tel:+40756993993">0756 993 993</a></p></div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
+          <div><h4>Livrare & prioritate</h4><p>Comenzile plasate între <strong>08:00 – 11:00</strong> se livrează cu prioritate, începând cu ora 12:00.</p></div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div>
+          <div><h4>Online</h4><p><a href="https://www.rowafoods.ro" target="_blank" rel="noopener">www.rowafoods.ro</a><br><a href="https://www.facebook.com/RowaBistro/" target="_blank" rel="noopener">facebook.com/RowaBistro</a></p></div>
+        </div>
+        <div class="visit-actions">
+          <a href="tel:+40756993993" class="btn btn-primary">Sună acum</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=44.9401739,25.4617671" target="_blank" rel="noopener" class="btn btn-ghost">Direcții pe hartă</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Harta ROWA Bistro, Strada Madrid 5, Class Park Residence, Târgoviște"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=25.4517671%2C44.9351739%2C25.4717671%2C44.9451739&layer=mapnik&marker=44.9401739%2C25.4617671"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c3 3.4 4.9 5.9 4.9 8.4A4.9 4.9 0 0 1 12 16.3a4.9 4.9 0 0 1-4.9-4.9C7.1 8.9 9 6.4 12 3z" fill="#fff"/></svg></span><span class="brand-name"><b>ROWA</b><small>Bistro · Târgoviște</small></span></a>
+        <p class="footer-about">Mâncare și dulciuri fără zahăr, sucuri energy & detox făcute proaspăt, fără aditivi. Bistro, sweets, coffee & catering la birou sau acasă.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/RowaBistro/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://www.rowafoods.ro" target="_blank" rel="noopener" aria-label="Website">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+          </a>
+          <a href="tel:+40756993993" aria-label="Telefon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Navigare</h5>
+        <ul>
+          <li><a href="#despre">Despre noi</a></li>
+          <li><a href="#meniu">Meniu</a></li>
+          <li><a href="#zilei">Meniul zilei</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#vizita">Contact & Locație</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>ROWA</h5>
+        <ul>
+          <li>Fără zahăr</li>
+          <li>Gluten free</li>
+          <li>Sucuri & detox</li>
+          <li>Catering</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=ROWA+Bistro+Strada+Madrid+5+Targoviste" target="_blank" rel="noopener">Str. Madrid 5, Class Park Residence, Târgoviște</a></li>
+          <li><a href="tel:+40756993993">0756 993 993</a></li>
+          <li><a href="https://www.rowafoods.ro" target="_blank" rel="noopener">www.rowafoods.ro</a></li>
+          <li><a href="https://www.facebook.com/RowaBistro/" target="_blank" rel="noopener">facebook.com/RowaBistro</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> ROWA Bistro · Târgoviște. Toate drepturile rezervate.</span>
+      <span>Str. Madrid 5 · Class Park Residence · Târgoviște, Dâmbovița</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+40756993993" class="float-call" aria-label="Sună la ROWA Bistro">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<script>
+(function(){
+  // Mobile menu
+  var burger=document.getElementById('burger');
+  var menu=document.getElementById('mobileMenu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){
+      var open=menu.classList.toggle('open');
+      burger.setAttribute('aria-expanded',open);
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click',function(){menu.classList.remove('open');burger.setAttribute('aria-expanded','false');});
+    });
+  }
+  // Reveal on scroll
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);} });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  // Year
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
