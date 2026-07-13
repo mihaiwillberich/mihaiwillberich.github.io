@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0d1b2e"/>
+  <path d="M12 40c3-11 12-18 20-18s16 5 20 16" fill="none" stroke="#f37021" stroke-width="5" stroke-linecap="round"/>
+  <text x="32" y="46" font-family="Barlow, Arial, sans-serif" font-size="22" font-weight="800" fill="#2e73d1" text-anchor="middle" letter-spacing="1">EVA</text>
+  <circle cx="18" cy="50" r="2.4" fill="#2e73d1"/>
+  <circle cx="27" cy="53" r="1.8" fill="#f37021"/>
+  <circle cx="46" cy="51" r="2.2" fill="#2e73d1"/>
+</svg>
