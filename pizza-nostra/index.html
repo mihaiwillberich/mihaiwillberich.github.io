@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Nostra Ямбол — пици в италиански стил на пещ</title>
+<meta name="description" content="Pizza Nostra в центъра на Ямбол, ул. „Александър Стамболийски“ 3 — неаполитански пици на пещ с прясна моцарела, прошуто крудо и хрупкав край. Поръчки: 0876 56 78 56.">
+<meta name="keywords" content="Pizza Nostra Ямбол, пицария Ямбол, пица Ямбол, италианска пица, неаполитанска пица, доставка пица Ямбол, Александър Стамболийски">
+<meta name="author" content="Pizza Nostra">
+<meta name="theme-color" content="#211b16">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Pizza Nostra">
+<meta property="og:title" content="Pizza Nostra Ямбол — пици в италиански стил на пещ">
+<meta property="og:description" content="Неаполитански пици на пещ, прясна моцарела и хрупкав, опушен край — в самия център на Ямбол. Поръчки на 0876 56 78 56.">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:image" content="assets/img/pizza-margherita.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pizza Nostra Ямбол">
+<meta name="twitter:description" content="Пици в италиански стил на пещ, в центъра на Ямбол.">
+<meta name="twitter:image" content="assets/img/pizza-margherita.jpg">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Structured data: Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Pizza Nostra",
+  "image": "assets/img/pizza-margherita.jpg",
+  "servesCuisine": ["Italian", "Pizza", "Neapolitan"],
+  "priceRange": "$$",
+  "telephone": "+359876567856",
+  "url": "https://www.facebook.com/pizzanostra2021/",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Александър Стамболийски 3",
+    "addressLocality": "Ямбол",
+    "postalCode": "8600",
+    "addressCountry": "BG"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 42.4853242, "longitude": 26.5057054 },
+  "sameAs": [
+    "https://www.facebook.com/pizzanostra2021/",
+    "https://www.instagram.com/pizza_nostra_2021/"
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:30", "closes": "20:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "20:30" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "113" }
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Pizza Nostra — начало">
+      <span class="mark" aria-hidden="true"><img src="assets/img/logo.jpg" alt="" width="42" height="42"></span>
+      <span class="brand-name"><b>Pizza Nostra</b><small>Ямбол · 2021</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Основна навигация">
+      <a href="#za-nas">За нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#galeriya">Галерия</a>
+      <a href="#otzivi">Отзиви</a>
+      <a href="#kontakti">Контакти</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+359876567856" class="nav-phone" aria-label="Обади се на Pizza Nostra">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0876 56 78 56
+      </a>
+      <a href="tel:+359876567856" class="btn btn-primary">Поръчай пица</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Отвори менюто" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Мобилно меню">
+  <a href="#za-nas">За нас</a>
+  <a href="#menu">Меню</a>
+  <a href="#galeriya">Галерия</a>
+  <a href="#otzivi">Отзиви</a>
+  <a href="#kontakti">Контакти</a>
+  <a href="tel:+359876567856" class="btn btn-primary">Поръчай пица</a>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Начало">
+  <div class="hero-bg">
+    <img src="assets/img/pizza-margherita.jpg" alt="Неаполитанска пица Маргарита с прясна моцарела и босилек от Pizza Nostra, Ямбол" fetchpriority="high" width="800" height="781">
+  </div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span> Отворено вт–нд · 10:30 – 20:30</span>
+      <h1>Пица в <em>италиански</em> стил, в сърцето на Ямбол.</h1>
+      <p class="hero-lead">Тесто на пещ с хрупкав, опушен край, прясна моцарела и истински италиански съставки — от класическата Маргарита до Прошуто Крудо с рукола. Тел. за поръчки 0876 56 78 56.</p>
+      <div class="hero-actions">
+        <a href="tel:+359876567856" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Поръчай на телефон
+        </a>
+        <a href="#menu" class="btn btn-ghost">Виж менюто</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item">
+          <div class="k stars">★★★★★</div>
+          <div class="l">4,6 от 5 · над 100 отзива в Google</div>
+        </div>
+        <div class="item">
+          <div class="k">14</div>
+          <div class="l">вида пица на пещ в менюто</div>
+        </div>
+        <div class="item">
+          <div class="k">Est. 2021</div>
+          <div class="l">в центъра, ул. „Ал. Стамболийски“ 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Тесто на пещ</span><span>Прясна моцарела</span><span>Прошуто крудо</span><span>Хрупкав край</span><span>Италиански стил</span><span>Малки &amp; големи пици</span>
+    <span>Тесто на пещ</span><span>Прясна моцарела</span><span>Прошуто крудо</span><span>Хрупкав край</span><span>Италиански стил</span><span>Малки &amp; големи пици</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="za-nas">
+  <div class="wrap about-grid">
+    <div class="about-copy reveal">
+      <span class="eyebrow">Нашата история</span>
+      <h2>Италианска пица, направена с внимание в Ямбол.</h2>
+      <p>От 2021 г. Pizza Nostra пече пици в <strong>истински италиански стил</strong> в самия център на Ямбол. Тесто с хрупкав, леко опушен край, доматен сос, <strong>прясна моцарела</strong> и подбрани съставки — прошуто крудо, скаморца, горгонзола, песто и рукола.</p>
+      <p>Всяка пица излиза от пещта такава, каквато бихме искали да я намерим и ние: <strong>прясна, ароматна и на достъпна цена</strong>. Затова гостите ни оставят оценка 4,6 от 5 в над сто отзива.</p>
+      <p>Отбий се на обяд или вечеря, вземи за вкъщи или поръчай за доставка — очакваме те на ул. „Александър Стамболийски“ 3.</p>
+      <div class="about-sign">
+        С апетит, екипът на Pizza Nostra
+        <small>ул. „Александър Стамболийски“ 3 · Ямбол</small>
+      </div>
+    </div>
+    <div class="about-media reveal">
+      <div class="frame">
+        <img src="assets/img/pizza-prosciutto-crudo.jpg" alt="Пица Прошуто Крудо с чери домати, рукола и зехтин от Pizza Nostra, Ямбол" loading="lazy" width="800" height="1066">
+      </div>
+      <div class="tag">
+        <div class="n">4,6★</div>
+        <div class="d">оценка от гостите ни в Google</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section" style="background:var(--ember)">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Защо Pizza Nostra</span>
+      <h2>Повече от просто пица</h2>
+      <p>Три причини ямболци да се връщат при нас отново и отново.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s4 2 4 7a4 4 0 0 1-8 0c0-5 4-7 4-7z"/><path d="M5 15c0 3.87 3.13 7 7 7s7-3.13 7-7"/></svg></div>
+        <h3>Тесто на пещ</h3>
+        <p>Хрупкав, леко опушен край и меко тесто — истинската текстура на неаполитанската пица, изпечена в пещ.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+        <h3>Италиански съставки</h3>
+        <p>Прясна моцарела, скаморца, горгонзола, прошуто крудо, песто и зехтин — вкусове, пренесени директно от Италия.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+        <h3>Малки &amp; големи</h3>
+        <p>Всяка пица — в малък и голям размер. За вкъщи, за офиса или на масата с приятели, на честна цена.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="section menu" id="menu">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Нашето меню</span>
+      <h2>Пиците на Nostra</h2>
+      <p>Показаните цени са за голям размер. Всяка пица е и в малък размер (8,80 – 9,00 лв). Актуалните цени и наличности виж в пицарията или онлайн.</p>
+    </div>
+
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Пици</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-tripla-carne.jpg" alt="Пица Трипла Карне — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Трипла Карне</h4><span class="dish-price">15,39 <small>лв</small></span></div><p class="dish-desc">Дом. сос, моцарела, шунка Кото, италианска наденица и салам наполи</p><span class="dish-gram">580 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-quattro-formaggi.jpg" alt="Пица Куатро Формаджи — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Куатро Формаджи <span class="badge cheese">4 сирена</span></h4><span class="dish-price">14,88 <small>лв</small></span></div><p class="dish-desc">Моцарела, скаморца, горгонзола, пармезан и зехтин</p><span class="dish-gram">500 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-prosciutto-crudo.jpg" alt="Пица Прошуто Крудо — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Прошуто Крудо</h4><span class="dish-price">14,88 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, чери домати, прошуто крудо, рукола и зехтин</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-vegetariana.jpg" alt="Пица Вегетариана — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Вегетариана <span class="badge veg">Вегетарианска</span></h4><span class="dish-price">13,98 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, гъби, чушка, лук, чери домати, маслини и фриарелли</p><span class="dish-gram">600 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-bianco-salsiccia.jpg" alt="Пица Бианко Салсиче — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Бианко Салсиче</h4><span class="dish-price">13,98 <small>лв</small></span></div><p class="dish-desc">Сметана, моцарела, пушена скаморца, италианска наденица, гъби и пармезан</p><span class="dish-gram">550 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-prosciutto-funghi.jpg" alt="Пица Прошуто Фунги — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Прошуто Фунги</h4><span class="dish-price">13,98 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, шунка кото, гъби и маслини</p><span class="dish-gram">580 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-pepperoni.jpg" alt="Пица Пеперони — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Пеперони</h4><span class="dish-price">13,89 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, салам Пеперони, босилек, пармезан и мед</p><span class="dish-gram">530 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-mimosa.jpg" alt="Пица Мимоса — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Мимоса</h4><span class="dish-price">13,89 <small>лв</small></span></div><p class="dish-desc">Сметана, моцарела, прошуто Кото, царевица и пармезан</p><span class="dish-gram">550 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-salsiccia.jpg" alt="Пица Салсиче — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Салсиче</h4><span class="dish-price">13,50 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, пармезан, свинска наденица и фриарелли</p><span class="dish-gram">550 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-calabrese.jpg" alt="Пица Калабрезе — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Калабрезе <span class="badge spicy">Люта</span></h4><span class="dish-price">13,50 <small>лв</small></span></div><p class="dish-desc">Моцарела, картоф, лют колбас Ндуя и пармезан</p><span class="dish-gram">500 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-luciano.jpg" alt="Пица Лучано — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Лучано</h4><span class="dish-price">13,40 <small>лв</small></span></div><p class="dish-desc">Сметана, моцарела,пушена скаморца, шунка Кото, 4 вида горски гъби и лук</p><span class="dish-gram">550 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-capri.jpg" alt="Пица Капри — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Капри</h4><span class="dish-price">12,50 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, пресни чери домати, пармезан и песто</p></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-margherita.jpg" alt="Пица Маргарита — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Маргарита</h4><span class="dish-price">10,99 <small>лв</small></span></div><p class="dish-desc">Доматен сос, моцарела, прясна моцарела, пармезан и зехт</p><span class="dish-gram">400 г</span></div></article>
+        <article class="dish"><div class="dish-photo"><img src="assets/img/pizza-marinara.jpg" alt="Пица Маринара — Pizza Nostra, Ямбол" loading="lazy" width="800" height="800"></div><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Пица Маринара</h4><span class="dish-price">8,80 <small>лв</small></span></div><p class="dish-desc">Доматен сос, чесън, риган, босилек и зехтин</p><span class="dish-gram">350 г</span></div></article>
+      </div>
+    </div>
+
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head"><h3>Напитки</h3><span class="menu-cat-line"></span></div>
+      <div class="dish-grid">
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Кока Кола Зеро</h4></div><p class="dish-desc">Безалкохолна напитка - 330мл</p></div><span class="dish-price">3,79 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Вода с витамини череша и роза</h4></div><p class="dish-desc">Безалкохолна напитка - 425мл</p></div><span class="dish-price">2,88 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Вода с витамини ябълка и киви (425мл)</h4></div><p class="dish-desc">Безалкохолна напитка</p></div><span class="dish-price">2,88 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Вода с витамини тропическа праскова</h4></div><p class="dish-desc">Безалкохолна напитка - 425мл</p></div><span class="dish-price">2,88 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Фанта портокал</h4></div><p class="dish-desc">Безалкохолна напитка - 330мл</p></div><span class="dish-price">2,88 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Спрайт</h4></div><p class="dish-desc">Безалкохолна напитка - 330мл</p></div><span class="dish-price">2,88 <small>лв</small></span></article>
+        <article class="dish no-photo"><div class="dish-body"><div class="dish-top"><h4 class="dish-name">Минерална вода (400мл)</h4></div><p class="dish-desc">Девин минерална вода</p></div><span class="dish-price">1,68 <small>лв</small></span></article>
+      </div>
+    </div>
+
+    <p class="menu-note">Снимките са на нашите пици (източник: платформа за поръчки). Пълното меню, грамажите и актуалните цени ще намериш в пицарията или на телефон 0876 56 78 56. Цените подлежат на промяна.</p>
+    <div class="menu-cta">
+      <a href="tel:+359876567856" class="btn btn-primary">Поръчай на телефон</a>
+      <a href="#kontakti" class="btn btn-ghost">Работно време &amp; локация</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="galeriya">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Галерия</span>
+      <h2>Право от пещта</h2>
+      <p>Няколко от пиците, които те очакват в Pizza Nostra.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gcell g-tall g-wide"><img src="assets/img/pizza-prosciutto-funghi.jpg" alt="Пица Прошуто Фунги с шунка, гъби и маслини" loading="lazy"><span class="cap">Прошуто Фунги</span></div>
+      <div class="gcell"><img src="assets/img/pizza-margherita.jpg" alt="Пица Маргарита с прясна моцарела и босилек" loading="lazy"><span class="cap">Маргарита</span></div>
+      <div class="gcell"><img src="assets/img/pizza-quattro-formaggi.jpg" alt="Пица Куатро Формаджи с четири вида сирене" loading="lazy"><span class="cap">Куатро Формаджи</span></div>
+      <div class="gcell"><img src="assets/img/pizza-tripla-carne.jpg" alt="Пица Трипла Карне с шунка, наденица и салам" loading="lazy"><span class="cap">Трипла Карне</span></div>
+      <div class="gcell"><img src="assets/img/pizza-calabrese.jpg" alt="Пица Калабрезе с картоф и лют колбас Ндуя" loading="lazy"><span class="cap">Калабрезе</span></div>
+      <div class="gcell g-wide"><img src="assets/img/pizza-vegetariana.jpg" alt="Пица Вегетариана с гъби, чушка и зеленчуци" loading="lazy"><span class="cap">Вегетариана</span></div>
+      <div class="gcell"><img src="assets/img/pizza-mimosa.jpg" alt="Пица Мимоса със сметана, шунка и царевица" loading="lazy"><span class="cap">Мимоса</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section reviews" id="otzivi">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Какво казват гостите</span>
+      <h2>4,6 от 5 звезди</h2>
+      <p>Над 100 отзива в Google. Ето някои от тях.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Много вкусна пица — всичко беше прясно и получихме добро обслужване. Хубав декор и чисто помещение. Препоръчвам.”</p>
+        <div class="who"><span class="av">Г</span><div><div class="nm">Гост на Pizza Nostra</div><div class="src">Отзив в Google</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Уютно и спокойно, с вкусна храна и любезен персонал. Пиците са хубави, в италиански стил!”</p>
+        <div class="who"><span class="av">Г</span><div><div class="nm">Гост на Pizza Nostra</div><div class="src">Отзив в Google</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>„Приветлив и услужлив персонал, който сервира много вкусна храна. Силно препоръчвам, когато сте в Ямбол.”</p>
+        <div class="who"><span class="av">Г</span><div><div class="nm">Гост на Pizza Nostra</div><div class="src">Отзив в Google</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORDER CTA BANNER ============ -->
+<section class="cta-banner">
+  <div class="bg"><img src="assets/img/pizza-luciano.jpg" alt="Пица Лучано със сметана, скаморца и горски гъби" loading="lazy"></div>
+  <div class="wrap">
+    <span class="eyebrow">Поръчки</span>
+    <h2>Гладен за <em>истинска</em> пица?</h2>
+    <p>Вземи за вкъщи, за офиса или поръчай за доставка. Обади се и кажи коя е твоята — ние се грижим за останалото.</p>
+    <div class="hero-actions">
+      <a href="tel:+359876567856" class="btn btn-primary">Обади се: 0876 56 78 56</a>
+      <a href="https://www.facebook.com/pizzanostra2021/" target="_blank" rel="noopener" class="btn btn-ghost">Пиши ни във Facebook</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="kontakti">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Работно време &amp; локация</span>
+      <h2>Намери ни в центъра на Ямбол</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Адрес</h4><p><a href="https://www.openstreetmap.org/?mlat=42.4853242&mlon=26.5057054#map=18/42.4853242/26.5057054" target="_blank" rel="noopener">ул. „Александър Стамболийски“ 3, 8600 Ямбол</a></p></div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div>
+            <h4>Работно време</h4>
+            <div class="hours-row closed" data-day="1"><span>Понеделник</span><span>Затворено</span></div>
+            <div class="hours-row" data-day="2"><span>Вторник</span><span>10:30 – 20:30</span></div>
+            <div class="hours-row" data-day="3"><span>Сряда</span><span>10:30 – 20:30</span></div>
+            <div class="hours-row" data-day="4"><span>Четвъртък</span><span>10:30 – 20:30</span></div>
+            <div class="hours-row" data-day="5"><span>Петък</span><span>10:30 – 20:30</span></div>
+            <div class="hours-row" data-day="6"><span>Събота</span><span>10:30 – 20:30</span></div>
+            <div class="hours-row" data-day="0"><span>Неделя</span><span>11:00 – 20:30</span></div>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><h4>Поръчки</h4><p><a href="tel:+359876567856">0876 56 78 56</a></p></div>
+        </div>
+        <div class="visit-actions">
+          <a href="tel:+359876567856" class="btn btn-primary">Поръчай сега</a>
+          <a href="https://www.openstreetmap.org/directions?to=42.4853242%2C26.5057054" target="_blank" rel="noopener" class="btn btn-ghost">Как да стигна</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Карта — Pizza Nostra, ул. „Александър Стамболийски“ 3, Ямбол"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=26.4957%2C42.4803%2C26.5157%2C42.4903&layer=mapnik&marker=42.4853242%2C26.5057054"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="brand"><span class="mark" aria-hidden="true"><img src="assets/img/logo.jpg" alt="" width="42" height="42"></span><span class="brand-name"><b>Pizza Nostra</b><small>Ямбол · 2021</small></span></a>
+        <p class="footer-about">Пици в италиански стил, изпечени на пещ, в самия център на Ямбол. Прясна моцарела, хрупкав край и честни цени.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/pizzanostra2021/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/pizza_nostra_2021/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="tel:+359876567856" aria-label="Телефон">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5>Навигация</h5>
+        <ul>
+          <li><a href="#za-nas">За нас</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#galeriya">Галерия</a></li>
+          <li><a href="#otzivi">Отзиви</a></li>
+          <li><a href="#kontakti">Контакти</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Работно време</h5>
+        <ul>
+          <li>Понеделник — Затворено</li>
+          <li>Вторник – Събота · 10:30 – 20:30</li>
+          <li>Неделя · 11:00 – 20:30</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Контакт</h5>
+        <ul>
+          <li><a href="https://www.openstreetmap.org/?mlat=42.4853242&mlon=26.5057054#map=18/42.4853242/26.5057054" target="_blank" rel="noopener">ул. „Ал. Стамболийски“ 3, Ямбол</a></li>
+          <li><a href="tel:+359876567856">0876 56 78 56</a></li>
+          <li><a href="https://www.facebook.com/pizzanostra2021/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Pizza Nostra · Ямбол. Всички права запазени.</span>
+      <span>ул. „Александър Стамболийски“ 3 · 8600 Ямбол</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+359876567856" class="float-call" aria-label="Обади се на Pizza Nostra">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<script src="assets/js/script.js" defer></script>
+</body>
+</html>
