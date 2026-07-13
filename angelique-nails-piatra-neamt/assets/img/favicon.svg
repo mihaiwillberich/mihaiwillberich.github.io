@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d7e0"/>
+      <stop offset="0.5" stop-color="#d99ab4"/>
+      <stop offset="1" stop-color="#8e5b78"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#2a1c26"/>
+  <!-- almond nail silhouette -->
+  <path d="M32 12c7 0 12 6 12 16 0 12-6 24-12 24s-12-12-12-24c0-10 5-16 12-16z" fill="url(#g)"/>
+  <!-- glitter tip -->
+  <path d="M32 12c7 0 12 6 12 16 0 2-.2 4-.5 6-3.6 1.6-7.5 2.4-11.5 2.4s-7.9-.8-11.5-2.4c-.3-2-.5-4-.5-6 0-10 5-16 12-16z" fill="#fff" opacity="0.55"/>
+  <circle cx="27" cy="24" r="1.3" fill="#fff"/>
+  <circle cx="35" cy="21" r="1" fill="#fff"/>
+  <circle cx="31" cy="28" r="1.1" fill="#fbe6ef"/>
+</svg>
