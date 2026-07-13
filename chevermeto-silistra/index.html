@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ресторант Чевермето — Силистра · Механа с градина и басейн, чеверме на шиш</title>
+<meta name="description" content="Ресторант „Чевермето“ Garden &amp; Pool в Силистра, ул. Добрич 230 — традиционна българска кухня, чеверме на шиш, морска храна и салати, градина с басейн. Резервации: 0897 867 070.">
+<meta name="keywords" content="Чевермето Силистра, ресторант Силистра, механа Силистра, чеверме на шиш, българска кухня, градина басейн, барбекю, ул. Добрич">
+<meta name="author" content="Ресторант Чевермето Силистра">
+<meta name="theme-color" content="#16110c">
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Ресторант Чевермето — Силистра">
+<meta property="og:title" content="Ресторант Чевермето — Силистра · Garden &amp; Pool">
+<meta property="og:description" content="Традиционна българска кухня, чеверме на шиш, морска храна и салати — в градина с басейн на ул. Добрич 230, Силистра. Резервации: 0897 867 070.">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:image" content="assets/img/logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ресторант Чевермето — Силистра">
+<meta name="twitter:description" content="Механа с градина и басейн в Силистра — чеверме на шиш, българска кухня, морска храна и салати.">
+<meta name="twitter:image" content="assets/img/logo.jpg">
+
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Structured data: Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Ресторант Чевермето",
+  "image": "assets/img/logo.jpg",
+  "servesCuisine": ["Bulgarian", "Barbecue", "Seafood"],
+  "priceRange": "$$",
+  "telephone": "+359897867070",
+  "url": "https://www.facebook.com/Chevermetosilistra",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Добрич 230, Памук кулак",
+    "addressLocality": "Силистра",
+    "addressRegion": "Силистра",
+    "postalCode": "7500",
+    "addressCountry": "BG"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "11:00", "closes": "00:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "19:00" }
+  ],
+  "sameAs": [ "https://www.facebook.com/Chevermetosilistra" ],
+  "acceptsReservations": "True"
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Ресторант Чевермето — начало">
+      <span class="mark" aria-hidden="true"><img src="assets/img/logo.jpg" alt="" width="44" height="44"></span>
+      <span class="brand-name"><b>ЧЕВЕРМЕТО</b><small>Garden &amp; Pool · Силистра</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Основна навигация">
+      <a href="#za-nas">За нас</a>
+      <a href="#kuhnya">Кухня</a>
+      <a href="#gradina">Градина &amp; басейн</a>
+      <a href="#namirane">Работно време &amp; локация</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+359897867070" class="nav-phone" aria-label="Обади се на Чевермето">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0897 867 070
+      </a>
+      <a href="tel:+359897867070" class="btn btn-primary">Резервирай маса</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Отвори менюто" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Мобилно меню">
+  <a href="#za-nas">За нас</a>
+  <a href="#kuhnya">Кухня</a>
+  <a href="#gradina">Градина &amp; басейн</a>
+  <a href="#namirane">Работно време &amp; локация</a>
+  <a href="tel:+359897867070" class="btn btn-primary">Резервирай маса</a>
+</nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Въведение">
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span> Механа с градина &amp; басейн · Силистра</span>
+      <h1>Чеверме на шиш, под <em>сянката</em> на градината.</h1>
+      <p class="hero-lead">Ресторант „Чевермето“ край Дунав е място за истинска българска трапеза — печено на бавен огън, морска храна и щедри салати, поднесени на маса в зелена градина с басейн.</p>
+      <div class="hero-actions">
+        <a href="tel:+359897867070" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Резервирай маса
+        </a>
+        <a href="#kuhnya" class="btn btn-ghost">Разгледай кухнята</a>
+      </div>
+      <div class="hero-meta">
+        <div class="item">
+          <div class="k">Българска</div>
+          <div class="l">традиционна кухня &amp; чеверме</div>
+        </div>
+        <div class="item">
+          <div class="k">Градина</div>
+          <div class="l">със зеленина и басейн</div>
+        </div>
+        <div class="item">
+          <div class="k">7 дни</div>
+          <div class="l">от 11:00 ч. всеки ден</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="za-nas" aria-label="За ресторанта">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="eyebrow">За „Чевермето“</span>
+        <h2>Механа за големи компании и семейни поводи.</h2>
+        <p>„Чевермето“ в Силистра е ресторант в духа на българската фолклорна трапеза — с ястия за споделяне, печено на жар и топло гостоприемство. Заведението е подходящо за семейни събирания, големи компании и тържества.</p>
+        <p class="muted">Заповядайте на обяд или вечеря, а в топлите дни — на маса навън, в градината с басейн. Салонът е климатизиран за приятна атмосфера през цялата година.</p>
+      </div>
+      <figure class="about-emblem">
+        <div class="disc">
+          <img src="assets/img/logo.jpg" alt="Логото на ресторант „Чевермето“ — дървен диск с надпис РЕСТОРАНТ ЧЕВЕРМЕТО, Garden &amp; Pool" width="480" height="480">
+        </div>
+        <figcaption>Ресторант Чевермето<span>Garden &amp; Pool · гр. Силистра</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<hr class="seam">
+
+<!-- ============ KITCHEN ============ -->
+<section class="section kitchen" id="kuhnya" aria-label="Кухня">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Кухнята</span>
+      <h2>Вкусове от българската трапеза</h2>
+      <p>Традиционна кухня, печено на шиш и жар, морска храна и щедри салати — приготвени за споделяне на масата.</p>
+    </div>
+    <div class="dish-grid">
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v6M12 2v6M16 2v6"/><path d="M4 8h16"/><path d="M6 8c0 5 2.5 8 6 8s6-3 6-8"/><path d="M12 16v6"/></svg></div>
+        <h3>Чеверме на шиш</h3>
+        <p>Месо, печено бавно на огън — сочно, ароматно и в изобилие, точно както повелява традицията.</p>
+      </article>
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h16"/><path d="M6 13a6 6 0 0 1 12 0"/><path d="M10 8V6M14 8V5"/><path d="M3 17h18"/></svg></div>
+        <h3>Барбекю &amp; грил</h3>
+        <p>Специалитети на скара и жар — от кебапчета и наденици до плата за цялата компания.</p>
+      </article>
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c0-3 4-5 9-5s9 2 9 5"/><path d="M3 12c0 3 4 5 9 5s9-2 9-5"/><path d="M12 7V4"/><path d="M9 4h6"/></svg></div>
+        <h3>Морска храна</h3>
+        <p>Риба и морски деликатеси — свежи предложения, които разнообразяват менюто край Дунав.</p>
+      </article>
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 0-5 2-5 5 0 4 5 13 5 13s5-9 5-13c0-3-2-5-5-5z"/><path d="M12 3v18"/></svg></div>
+        <h3>Салати &amp; предястия</h3>
+        <p>Щедри салати със свежи зеленчуци и класически мезета — начало на всяка добра трапеза.</p>
+      </article>
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 20V9l6-5 6 5v11"/><path d="M10 20v-5h4v5"/></svg></div>
+        <h3>Домашни гозби</h3>
+        <p>Топли ястия по български рецепти — за обяд, вечеря или спокоен неделен обяд със семейството.</p>
+      </article>
+      <article class="dish">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2v4M11 2v4"/><path d="M5 6h8v3a4 4 0 0 1-8 0z"/><path d="M13 7h4a2 2 0 0 1 0 4h-4"/><path d="M4 15h11v2a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/></svg></div>
+        <h3>Напитки за трапезата</h3>
+        <p>Разхладителни напитки, кафе и подбор от алкохол — за да завършите вечерята в добра компания.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<hr class="seam">
+
+<!-- ============ GARDEN & POOL / EXPERIENCE ============ -->
+<section class="section strip" id="gradina" aria-label="Градина и удобства">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Атмосферата</span>
+      <h2>Градина, басейн и повод за празник</h2>
+      <p>Зелено пространство на открито, климатизиран салон и място за компаниите, които обичат да празнуват заедно.</p>
+    </div>
+    <div class="strip-grid">
+      <div class="feat">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V8"/><path d="M12 8c0-3 2-6 6-6-1 4-3 6-6 6z"/><path d="M12 12c0-3-2-6-6-6 1 4 3 6 6 6z"/></svg></div>
+        <h3>Градина</h3>
+        <p>Маси на открито сред зеленина за топлите дни.</p>
+      </div>
+      <div class="feat">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18c1.5 0 1.5-1 3-1s1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1"/><path d="M2 22c1.5 0 1.5-1 3-1s1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1"/><path d="M6 14V6a2 2 0 0 1 4 0"/><path d="M8 10h4"/></svg></div>
+        <h3>Басейн</h3>
+        <p>Разхлада край водата в летните месеци.</p>
+      </div>
+      <div class="feat">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M6 12V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v5"/><path d="M8 5V3M16 5V3"/><path d="M9 12v3M15 12v3"/></svg></div>
+        <h3>Климатик</h3>
+        <p>Приятна прохлада в салона през цялата година.</p>
+      </div>
+      <div class="feat">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>За компании</h3>
+        <p>Място за семейни поводи, тържества и големи маси.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="seam">
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="namirane" aria-label="Работно време и локация">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Заповядайте</span>
+      <h2>Работно време &amp; локация</h2>
+      <p>Намираме се на ул. Добрич 230 в Силистра. За резервация на маса се обадете предварително.</p>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info">
+        <h3>Контакти</h3>
+        <div class="info-row">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div>
+            <div class="rk">Адрес</div>
+            <div class="rv">ул. Добрич 230, Памук кулак, гр. Силистра</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div>
+            <div class="rk">Телефон</div>
+            <div class="rv"><a href="tel:+359897867070">0897 867 070</a></div>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+          <div style="flex:1">
+            <div class="rk">Работно време</div>
+            <div class="rv" style="margin-top:6px">
+              <div class="hours-line"><span>Понеделник – събота</span><span>11:00 – 00:00 ч.</span></div>
+              <div class="hours-line"><span>Неделя</span><span>11:00 – 19:00 ч.</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span>
+          <div>
+            <div class="rk">Последвайте ни</div>
+            <div class="rv"><a href="https://www.facebook.com/Chevermetosilistra" target="_blank" rel="noopener">Ресторант Чевермето — Facebook</a></div>
+          </div>
+        </div>
+        <div class="visit-cta">
+          <a href="tel:+359897867070" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Обади се за резервация
+          </a>
+        </div>
+      </div>
+      <div class="visit-map">
+        <iframe
+          title="Карта — Ресторант Чевермето, ул. Добрич, Силистра"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=27.2620%2C44.1105%2C27.2735%2C44.1195&amp;layer=mapnik&amp;marker=44.1150%2C27.2678"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark"><img src="assets/img/logo.jpg" alt="Лого на ресторант Чевермето" width="40" height="40"></span>
+        <span>ЧЕВЕРМЕТО</span>
+      </div>
+      <nav class="footer-links" aria-label="Долна навигация">
+        <a href="#za-nas">За нас</a>
+        <a href="#kuhnya">Кухня</a>
+        <a href="#gradina">Градина &amp; басейн</a>
+        <a href="#namirane">Локация</a>
+        <a href="tel:+359897867070">0897 867 070</a>
+      </nav>
+    </div>
+    <div class="footer-note">
+      <span>© 2026 Ресторант Чевермето · гр. Силистра, ул. Добрич 230</span>
+      <span>Механа с градина &amp; басейн · Понеделник – събота 11:00–00:00, Неделя 11:00–19:00</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var nav = document.getElementById('nav');
+    var onScroll = function () {
+      if (window.scrollY > 24) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    var burger = document.getElementById('burger');
+    var menu = document.getElementById('mobileMenu');
+    var toggle = function () {
+      var open = menu.classList.toggle('open');
+      burger.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    burger.addEventListener('click', toggle);
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        menu.classList.remove('open');
+        burger.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
