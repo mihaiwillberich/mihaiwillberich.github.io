@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Robert's">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7a8c4"/>
+      <stop offset="1" stop-color="#e05f8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#161318"/>
+  <!-- water droplet -->
+  <path d="M32 12c7 8 11 13 11 19a11 11 0 0 1-22 0c0-6 4-11 11-19z" fill="url(#g)"/>
+  <!-- shine -->
+  <path d="M27 30a5.5 5.5 0 0 0 4 8" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+</svg>
